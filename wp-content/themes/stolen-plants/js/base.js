@@ -26,5 +26,31 @@
     });
   });
 
+  /* Unveil
+  ========================================================*/
+  var o = $('.lazy img');
+
+  if (o.length > 0) {
+    $(document).ready(function () {
+      $(o).unveil(0, function () {
+        $(this).load(function () {
+          $(this).parent().addClass("lazy-loaded");
+        });
+      });
+    });
+
+    $(window).load(function () {
+      $(window).trigger('lookup.unveil');
+      if ($('.nav-tabs').length) {
+        $('.nav-tabs').find('a[data-toggle="tab"]').click(function () {
+          setTimeout(function () {
+            $(window).trigger('lookup.unveil');
+          }, 400);
+        });
+      }
+    });
+
+  }
+
 
 })(window, jQuery);

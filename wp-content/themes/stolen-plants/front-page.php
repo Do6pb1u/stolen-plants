@@ -46,14 +46,6 @@
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/stylesheet.css" rel="stylesheet">
 <script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true" type="text/javascript"></script>
-<!--[if lt IE 9]>
-			<div style=' clear: both; text-align:center; position: relative;'>
-				<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
-					<img src="catalog/view/theme/theme660/image/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
-				</a>
-			</div>
-			<![endif]-->
-
 </head>
 <body class="common-home">
 <p id="gl_path" class="hidden">theme660</p>
@@ -305,144 +297,113 @@ Specials </a>
 <section id="container">
 <div class="container">
 <div class="row"> <div id="content" class="col-sm-12">
-<div id="banner0" class="banners row">
-<div class="col-sm-4 banner-1">
-<div class="banner-box">
-<a class="clearfix" href="index2ebe.html?route=product/product&amp;product_id=46">
-<img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-1-370x240.jpg" alt="banner-1"/>
-<div class="s-desc"><div class="circle"><div>
-Саженцы<br>
-<i class="fa fa-shopping-cart"></i>
-</div></div></div>
-</a>
-</div>
-</div>
-<div class="col-sm-4 banner-2">
-<div class="banner-box">
-<a class="clearfix" href="index6a4d.html?route=product/product&amp;product_id=33">
-<img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-2-370x240.jpg" alt="banner-2"/>
-<div class="s-desc"><div class="circle color-1"><div>
-Lemon<br> gifts<br>
-<i class="fa fa-shopping-cart"></i>
-</div></div></div>
-</a>
-</div>
-</div>
-<div class="col-sm-4 banner-3">
-<div class="banner-box">
-<a class="clearfix" href="indexfac8.html?route=product/product&amp;product_id=35">
-<img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-3-370x240.jpg" alt="banner-3"/>
-<div class="s-desc"><div class="circle color-2"><div>
-Peach<br> gifts<br>
-<i class="fa fa-shopping-cart"></i>
-</div></div></div>
-</a>
-</div>
-</div>
-</div>
+  <div id="banner0" class="banners row">
+    <div class="col-sm-4 banner-1">
+      <div class="banner-box">
+      <a class="clearfix" href="index2ebe.html?route=product/product&amp;product_id=46">
+      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-1-370x240.jpg" alt="banner-1"/>
+      <div class="s-desc"><div class="circle"><div>
+      Саженцы<br>
+      <i class="fa fa-shopping-cart"></i>
+      </div></div></div>
+      </a>
+      </div>
+    </div>
+    <div class="col-sm-4 banner-2">
+      <div class="banner-box">
+      <a class="clearfix" href="index6a4d.html?route=product/product&amp;product_id=33">
+      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-2-370x240.jpg" alt="banner-2"/>
+      <div class="s-desc"><div class="circle color-1"><div>
+      Lemon<br> gifts<br>
+      <i class="fa fa-shopping-cart"></i>
+      </div></div></div>
+      </a>
+      </div>
+    </div>
+    <div class="col-sm-4 banner-3">
+      <div class="banner-box">
+      <a class="clearfix" href="indexfac8.html?route=product/product&amp;product_id=35">
+      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-3-370x240.jpg" alt="banner-3"/>
+      <div class="s-desc"><div class="circle color-2"><div>
+      Peach<br> gifts<br>
+      <i class="fa fa-shopping-cart"></i>
+      </div></div></div>
+      </a>
+      </div>
+    </div>
+  </div>
+
 <div class="box featured">
-<div class="box-heading">
-<h3>Featured</h3>
-</div>
-<div class="box-content">
-<div class="row">
-<div class="product-layout col-lg-3 col-md-3 col-sm-3 col-xs-12">
-<div class="product-thumb transition options">
- 
-<div class="product-option-wrap">
-<div class="product-options form-horizontal">
-<div class="options">
-<a class="ajax-overlay_close" href='#'></a>
-<h3>Available Options</h3>
-<div class="form-group hidden">
-<div class="col-sm-8">
-<input type="text" name="product_id" value="46" class="form-control"/>
-</div>
-</div>
-<div class="form-group required">
-<label class="control-label col-sm-12" for="input-option3202001">
-Size </label>
-<div class="col-sm-12">
-<select name="option[32]" id="input-option3202001" class="form-control">
-<option value="">--- Please Select ---</option>
-<option value="72">
-Small (+$20.00) </option>
-<option value="73">
-Medium (+$15.00) </option>
-<option value="74">
-Large (+$10.00) </option>
-</select>
-</div>
-</div>
-<button class="btn btn-primary" type="button" onclick="cart.addPopup($(this),'46');"><i class="fa fa-shopping-cart"></i> <span>Add to Cart</span></button>
-</div>
-</div>
-</div>
-<div class="quick_info">
-<div id="quickview_20010" class="quickview-style">
-<div class="left col-sm-4">
-<div class="quickview_image image">
-<a href="index2ebe.html?route=product/product&amp;product_id=46">
-<img alt="Snacks Round Basket Premium" title="Snacks Round Basket Premium" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-43-270x270.png"/>
-</a>
-</div>
-</div>
-<div class="right col-sm-8">
-<h3>Snacks Round Basket Premium</h3>
-<div class="inf">
-<p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="index0b53.html?route=product/manufacturer/info&amp;manufacturer_id=16">Broadway Basketeers</a>
-</p>
-<p class="product_model model">
-Model: Banquet </p>
-<div class="price">
-$45.00 </div>
-</div>
-<div class="rating">
-<span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
-<span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
-<span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
-<span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
-<span class="fa-stack"> </span>
-</div>
-<button class="btn btn-primary" type="button" onclick="cart.add('46');"><i class="fa fa-shopping-cart"></i> <span>Add to Cart</span></button>
-<div class="clear"></div>
-<button class="btn btn-product" type="button" onclick="compare.add('46');"><i class="fa fa-exchange"></i> <span>Compare this Product</span></button>
-<button class="btn btn-product" type="button" onclick="wishlist.add('46');"><i class="fa fa-heart-o"></i> <span>Add to Wish List</span></button>
-<div class="clear"></div>
-</div>
-<div class="col-sm-12">
-<div class="quickview_description description">
-<p>We are glad to welcome you in our online store. It is a well-known fact that beautiful gifts are beloved by everybody so here you have a unique opportunity to find beautiful and healthy gifts. You’ll agree that there is nothing more pleasant and romantic than receiving elegant basket of fresh fruits on sunny Saturday morning. Details are always important and if you are going to make something important - like bringing happiness to your family and friends - than our fruit gifts will help you to make it right and with style. </p>
-<p>Our company was created over 15 years ago and it is very important to us to save traditions of our business by building solid and continuous relationships with our clients. You’ll be surprised by our fair prices and unbelievable 24/7 support service. Our mission is satisfying most whimsical clients’ needs and we are really good at that. </p>
-<p>We pack <b>our gifts baskets</b> with seasonal fruits including pears, apples, oranges and grapefruits. Get someone you care about a fresh fruit gift from our store and make their day better.</p> </div>
-</div>
-</div>
-</div>
-<div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index2ebe.html?route=product/product&amp;product_id=46"> <img alt="Snacks Round Basket Premium" title="Snacks Round Basket Premium" class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-43-270x270.png" src="#"/> </a>
-<div class="rating">
-<span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
-<span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
-<span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
-<span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
-</div>
- 
- 
-</div>
-<div class="caption">
-<div class="name"> <a href="index2ebe.html?route=product/product&amp;product_id=46">Snacks Round Basket Premium</a> </div>
-<div class="price">
-$45.00 </div>
-<button class="product-btn btn-add" type="button" data-toggle="tooltip" title="Add to Cart" onclick="ajaxAdd($(this),46);"><i class="fa fa-shopping-cart"></i></button>
-</div>
-<div class="cart-button">
-<button class="product-btn" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('46');"><i class="fa fa-exchange"></i></button>
-<button class="product-btn" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('46');"><i class="fa fa-heart-o"></i></button>
-<a class="product-btn quickview" data-rel="details" data-toggle="tooltip" title="Quick View" href="#quickview_20010"><i class="fa fa-eye"></i></a>
-</div>
-</div>
-</div>
+  <div class="box-heading">
+    <h3>Featured</h3>
+  </div>
+  <div class="box-content">
+    <div class="row">
+      <div class="product-layout col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <div class="product-thumb transition options">
+         
+          <div class="product-option-wrap">
+            <div class="product-options form-horizontal">
+              <div class="options">
+                <a class="ajax-overlay_close" href='#'></a>
+                <h3>Available Options</h3>
+                <div class="form-group hidden">
+                  <div class="col-sm-8">
+                    <input type="text" name="product_id" value="46" class="form-control"/>
+                  </div>
+                </div>
+                <div class="form-group required">
+                  <label class="control-label col-sm-12" for="input-option3202001">
+                    Size
+                  </label>
+                  <div class="col-sm-12">
+                    <select name="option[32]" id="input-option3202001" class="form-control">
+                      <option value="">--- Please Select ---</option>
+                      <option value="72"> Small (+$20.00) </option>
+                      <option value="73"> Medium (+$15.00) </option>
+                      <option value="74"> Large (+$10.00) </option>
+                    </select>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="button" onclick="cart.addPopup($(this),'46');"><i class="fa fa-shopping-cart"></i> <span>Add to Cart</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="quick_info">
+            <div id="quickview_20010" class="quickview-style">
+              <div class="left col-sm-4">
+                <div class="quickview_image image">
+                  <a href="index2ebe.html?route=product/product&amp;product_id=46">
+                    <img alt="Snacks Round Basket Premium" title="Snacks Round Basket Premium" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image">
+            <a class="lazy" style="padding-bottom: 100%" href="index2ebe.html?route=product/product&amp;product_id=46">
+              <img alt="Snacks Round Basket Premium" title="Snacks Round Basket Premium" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+          </div>
+
+          <div class="caption">
+            <div class="name"> <a href="index2ebe.html?route=product/product&amp;product_id=46">Snacks Round Basket Premium</a> </div>
+            <div class="price">
+              $45.00 </div>
+              <button class="product-btn btn-add" type="button" data-toggle="tooltip" title="Add to Cart" onclick="ajaxAdd($(this),46);"><i class="fa fa-shopping-cart"></i></button>
+          </div>
+          <div class="cart-button">
+            <button class="product-btn" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('46');"><i class="fa fa-exchange"></i></button>
+            <button class="product-btn" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('46');"><i class="fa fa-heart-o"></i></button>
+            <a class="product-btn quickview" data-rel="details" data-toggle="tooltip" title="Quick View" href="#quickview_20010"><i class="fa fa-eye"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
 <div class="product-layout col-lg-3 col-md-3 col-sm-3 col-xs-12">
 <div class="product-thumb transition options">
  
@@ -483,7 +444,7 @@ Birthday (+$15.00) </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="index6a4d.html?route=product/product&amp;product_id=33">
-<img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-13-270x270.png"/>
+<img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -515,7 +476,7 @@ Model: Deluxe </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index6a4d.html?route=product/product&amp;product_id=33"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-13-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="index6a4d.html?route=product/product&amp;product_id=33"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
@@ -618,7 +579,7 @@ Green (+$10.00) </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="indexfac8.html?route=product/product&amp;product_id=35">
-<img alt="Bloom Dried Fruit Basket" title="Bloom Dried Fruit Basket" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-19-270x270.png"/>
+<img alt="Bloom Dried Fruit Basket" title="Bloom Dried Fruit Basket" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -648,7 +609,7 @@ $54.00 </div>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexfac8.html?route=product/product&amp;product_id=35"> <img alt="Bloom Dried Fruit Basket" title="Bloom Dried Fruit Basket" class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-19-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="indexfac8.html?route=product/product&amp;product_id=35"> <img alt="Bloom Dried Fruit Basket" title="Bloom Dried Fruit Basket" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="new_pr"><span>New</span></span>
  
@@ -726,7 +687,7 @@ Green (+$10.00) </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="index5e0b.html?route=product/product&amp;product_id=36">
-<img alt="Goldenvale Snacks Fruit and Nut" title="Goldenvale Snacks Fruit and Nut" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-22-270x270.png"/>
+<img alt="Goldenvale Snacks Fruit and Nut" title="Goldenvale Snacks Fruit and Nut" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -756,7 +717,7 @@ $22.00 </div>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index5e0b.html?route=product/product&amp;product_id=36"> <img alt="Goldenvale Snacks Fruit and Nut" title="Goldenvale Snacks Fruit and Nut" class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-22-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="index5e0b.html?route=product/product&amp;product_id=36"> <img alt="Goldenvale Snacks Fruit and Nut" title="Goldenvale Snacks Fruit and Nut" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="new_pr"><span>New</span></span>
  
@@ -834,7 +795,7 @@ Green (+$10.00) </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="index6320.html?route=product/product&amp;product_id=28">
-<img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-1-270x270.png"/>
+<img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -866,7 +827,7 @@ Model: Banquet </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index6320.html?route=product/product&amp;product_id=28"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-1-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="index6320.html?route=product/product&amp;product_id=28"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
@@ -936,7 +897,7 @@ Green (+$10.00) </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="indexa17e.html?route=product/product&amp;product_id=32">
-<img alt="Saphire Sympathy Gift Tower" title="Saphire Sympathy Gift Tower" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-10-270x270.png"/>
+<img alt="Saphire Sympathy Gift Tower" title="Saphire Sympathy Gift Tower" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -968,7 +929,7 @@ Model: Regular </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexa17e.html?route=product/product&amp;product_id=32"> <img alt="Saphire Sympathy Gift Tower" title="Saphire Sympathy Gift Tower" class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-10-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="indexa17e.html?route=product/product&amp;product_id=32"> <img alt="Saphire Sympathy Gift Tower" title="Saphire Sympathy Gift Tower" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
@@ -1038,7 +999,7 @@ Green (+$10.00) </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="indexb8ca.html?route=product/product&amp;product_id=43">
-<img alt="Goldenvale Snacks Fruit Pine" title="Goldenvale Snacks Fruit Pine" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-34-270x270.png"/>
+<img alt="Goldenvale Snacks Fruit Pine" title="Goldenvale Snacks Fruit Pine" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -1070,7 +1031,7 @@ Model: Deluxe </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexb8ca.html?route=product/product&amp;product_id=43"> <img alt="Goldenvale Snacks Fruit Pine" title="Goldenvale Snacks Fruit Pine" class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-34-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="indexb8ca.html?route=product/product&amp;product_id=43"> <img alt="Goldenvale Snacks Fruit Pine" title="Goldenvale Snacks Fruit Pine" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
@@ -1127,7 +1088,7 @@ Large (+$10.00) </option>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="indexcae8.html?route=product/product&amp;product_id=41">
-<img alt="Fruit Gold Giftbox Deluxe" title="Fruit Gold Giftbox Deluxe" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-28-270x270.png"/>
+<img alt="Fruit Gold Giftbox Deluxe" title="Fruit Gold Giftbox Deluxe" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -1159,7 +1120,7 @@ Model: Banquet </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexcae8.html?route=product/product&amp;product_id=41"> <img alt="Fruit Gold Giftbox Deluxe" title="Fruit Gold Giftbox Deluxe" class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-28-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="indexcae8.html?route=product/product&amp;product_id=41"> <img alt="Fruit Gold Giftbox Deluxe" title="Fruit Gold Giftbox Deluxe" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="new_pr"><span>New</span></span>
  
@@ -1238,7 +1199,7 @@ Green (+$10.00) </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="indexd21c.html?route=product/product&amp;product_id=47">
-<img alt="A Healthy Gift Idea by Broadway" title="A Healthy Gift Idea by Broadway" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-46-270x270.png"/>
+<img alt="A Healthy Gift Idea by Broadway" title="A Healthy Gift Idea by Broadway" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -1277,7 +1238,7 @@ Model: Deluxe </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexd21c.html?route=product/product&amp;product_id=47"> <img alt="A Healthy Gift Idea by Broadway" title="A Healthy Gift Idea by Broadway" class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-46-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="indexd21c.html?route=product/product&amp;product_id=47"> <img alt="A Healthy Gift Idea by Broadway" title="A Healthy Gift Idea by Broadway" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
 <div class="rating">
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
@@ -1344,7 +1305,7 @@ Birthday (+$15.00) </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="index6a4d.html?route=product/product&amp;product_id=33">
-<img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-13-270x270.png"/>
+<img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -1376,7 +1337,7 @@ Model: Deluxe </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index6a4d.html?route=product/product&amp;product_id=33"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-13-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="index6a4d.html?route=product/product&amp;product_id=33"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
@@ -1456,7 +1417,7 @@ Green (+$10.00) </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="index6320.html?route=product/product&amp;product_id=28">
-<img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-1-270x270.png"/>
+<img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -1488,7 +1449,7 @@ Model: Banquet </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index6320.html?route=product/product&amp;product_id=28"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-1-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="index6320.html?route=product/product&amp;product_id=28"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
@@ -1558,7 +1519,7 @@ Green </label>
 <div class="left col-sm-4">
 <div class="quickview_image image">
 <a href="index0f47.html?route=product/product&amp;product_id=29">
-<img alt="Fruit and Nut Crate Gift Tray " title="Fruit and Nut Crate Gift Tray " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/product-4-270x270.png"/>
+<img alt="Fruit and Nut Crate Gift Tray " title="Fruit and Nut Crate Gift Tray " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
 </div>
@@ -1597,7 +1558,7 @@ Model: Party </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index0f47.html?route=product/product&amp;product_id=29"> <img alt="Fruit and Nut Crate Gift Tray " title="Fruit and Nut Crate Gift Tray " class="img-responsive" data-src="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/product-4-270x270.png" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="index0f47.html?route=product/product&amp;product_id=29"> <img alt="Fruit and Nut Crate Gift Tray " title="Fruit and Nut Crate Gift Tray " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
 <div class="rating">
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
