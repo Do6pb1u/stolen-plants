@@ -17,7 +17,10 @@
 <base />
 <meta name="description" content="Fruit Gift"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
+
+<?php
+  wp_head(); // Необходимо для работы плагинов и функционала wp
+?>
  
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/owl.carousel.css" rel="stylesheet">
@@ -42,20 +45,7 @@
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/tm_newsletter-popup.css" type="text/css" rel="stylesheet" media="screen"/>
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/stylesheet.css" rel="stylesheet">
 <script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery-2.1.1.min.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/moment.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/common.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/owl.carousel.min.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/cherry-fixed-parallax.js" type="text/javascript"></script>
 <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.rd-google-map.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/superfish.min.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.rd-navbar.min.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/device.min.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.lazyload.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/scrollfix.min.js" type="text/javascript"></script>
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/base.js" type="text/javascript"></script>
 <!--[if lt IE 9]>
 			<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
@@ -321,7 +311,7 @@ Specials </a>
 <a class="clearfix" href="index2ebe.html?route=product/product&amp;product_id=46">
 <img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-1-370x240.jpg" alt="banner-1"/>
 <div class="s-desc"><div class="circle"><div>
-Orange<br> gifts<br>
+Саженцы<br>
 <i class="fa fa-shopping-cart"></i>
 </div></div></div>
 </a>
@@ -2025,6 +2015,7 @@ Model: Party </p>
 
 </div>
 
-<div class="ajax-overlay"></div>
+<? wp_footer(); // Необходимо для нормальной работы плагинов
+?>
 
 </html>
