@@ -171,9 +171,9 @@ Specials </a>
     <div class="col-sm-4 banner-1">
       <div class="banner-box">
       <a class="clearfix" href="index2ebe.html?route=product/product&amp;product_id=46">
-      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-1-370x240.jpg" alt="banner-1"/>
+      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/menu_banner1.jpg" alt="banner-1"/>
       <div class="s-desc"><div class="circle"><div>
-      Саженцы<br>
+      Хвойные деревья<br>
       <i class="fa fa-shopping-cart"></i>
       </div></div></div>
       </a>
@@ -182,9 +182,9 @@ Specials </a>
     <div class="col-sm-4 banner-2">
       <div class="banner-box">
       <a class="clearfix" href="index6a4d.html?route=product/product&amp;product_id=33">
-      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-2-370x240.jpg" alt="banner-2"/>
+      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/menu_banner2.jpg" alt="banner-2"/>
       <div class="s-desc"><div class="circle color-1"><div>
-      Lemon<br> gifts<br>
+      Лиственные<br> деревья<br>
       <i class="fa fa-shopping-cart"></i>
       </div></div></div>
       </a>
@@ -193,9 +193,9 @@ Specials </a>
     <div class="col-sm-4 banner-3">
       <div class="banner-box">
       <a class="clearfix" href="indexfac8.html?route=product/product&amp;product_id=35">
-      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/banner-3-370x240.jpg" alt="banner-3"/>
+      <img src="<?php echo get_stylesheet_directory_uri() ?>/images/menu_banner3.jpg" alt="banner-3"/>
       <div class="s-desc"><div class="circle color-2"><div>
-      Peach<br> gifts<br>
+      Вьющиеся<br> деревья<br>
       <i class="fa fa-shopping-cart"></i>
       </div></div></div>
       </a>
