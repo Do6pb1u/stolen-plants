@@ -33,6 +33,7 @@
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/magnificent.css" rel="stylesheet">
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/jquery.bxslider.css" rel="stylesheet">
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/photoswipe.css" rel="stylesheet">
+
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/jquery.fancybox.css" rel="stylesheet">
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/material-design.css" rel="stylesheet">
 <link href="<?php echo get_stylesheet_directory_uri() ?>/css/fl-line-icon-set.css" rel="stylesheet">
@@ -48,59 +49,26 @@
 <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true" type="text/javascript"></script>
 </head>
 <body class="common-home">
-<p id="gl_path" class="hidden">theme660</p>
 <div id="page">
 <header>
 <div id="stuck">
 <div class="header__top">
 <div class="container">
 <div>
+
 <nav id="top-links" class="nav toggle-wrap">
-<a class="toggle fa fa-bars" href='#'></a>
-<div class="toggle_cont">
-<ul class="list-unstyled">
-<li> <a href="indexe223.html?route=account/login">Sign In</a> </li>
-<li> <a href="index5502.html?route=account/register">Registration</a> </li>
-<li> <a href="index4628.html?route=account/wishlist"> Wish List </a> </li>
-<li> <a href="index630e.html?route=checkout/cart"> Shopping Cart </a> </li>
-<li> <a href="indexf1a8.html?route=checkout/checkout"> Checkout </a> </li>
-</ul>
-<ul class="list-unstyled">
-<li class="box-currency">
-<form action="http://livedemo00.template-help.com/opencart_58166/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="currency">
-<div class="btn-group">
-<span class="dropdown-toggle" data-toggle="dropdown">
-<span>USD</span>
-</span>
-<ul class="dropdown-menu list-unstyled">
-<li><button class="currency-select" type="button" name="EUR">EUR</button></li>
-<li><button class="currency-select" type="button" name="GBP">GBP</button></li>
-<li><button class="currency-select select" type="button" name="USD">USD</button></li>
-</ul>
-</div>
-<input type="hidden" name="code" value=""/>
-<input type="hidden" name="redirect" value="http://livedemo00.template-help.com/opencart_58166/index.php?route=common/home"/>
-</form>
-</li>
-<li class="box-language">
-<form action="http://livedemo00.template-help.com/opencart_58166/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="language">
-<div class="btn-group ">
-<span class="dropdown-toggle" data-toggle="dropdown">
-<span>English</span>
-</span>
-<ul class="dropdown-menu  list-unstyled">
-<li><a class="select" href="en.html"><img class="hidden" src="<?php echo get_stylesheet_directory_uri() ?>/images/gb.png" alt="English" title="English"/> English</a></li>
-<li><a href="de.html"><img class="hidden" src="<?php echo get_stylesheet_directory_uri() ?>/images/de.png" alt="Deutsch" title="Deutsch"/> Deutsch</a></li>
-<li><a href="ru.html"><img class="hidden" src="<?php echo get_stylesheet_directory_uri() ?>/images/ru.png" alt="Русский" title="Русский"/> Русский</a></li>
-</ul>
-</div>
-<input type="hidden" name="code" value=""/>
-<input type="hidden" name="redirect" value="http://livedemo00.template-help.com/opencart_58166/index.php?route=common/home"/>
-</form>
-</li>
-</ul>
-</div>
+  <a class="toggle fa fa-bars" href='#'></a>
+  <div class="toggle_cont">
+    <ul class="list-unstyled">
+      <li> <a href="indexe223.html?route=account/login">Sign In</a> </li>
+      <li> <a href="index5502.html?route=account/register">Registration</a> </li>
+      <li> <a href="index4628.html?route=account/wishlist"> Wish List </a> </li>
+      <li> <a href="index630e.html?route=checkout/cart"> Shopping Cart </a> </li>
+      <li> <a href="indexf1a8.html?route=checkout/checkout"> Checkout </a> </li>
+    </ul>
+  </div>
 </nav>
+
 <div id="logo" class="logo">
 <a href="index9328.html?route=common/home"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-plants.png" title="Fruit Gift" alt="Fruit Gift" class="img-responsive"/></a>
 </div>
@@ -110,7 +78,6 @@
 Заказы принимаются с 10-00 до 22-00</div>
 </div>
 <span class="phone"><i class="fa fa-phone"></i><a href="tel:1-800-1234-567">+7(978) 792-54-33</a></span>
-<a href="index4628.html?route=account/wishlist" id="wishlist-total" class="button_wishlist"> <i class="fa fa-heart"></i> <b>Wishlist:</b><span>0</span> </a>
 <div class="box-cart">
 <div id="cart" class="cart toggle-wrap">
 <button type="button" data-loading-text="Loading..." class="toggle">
@@ -150,13 +117,13 @@
 <div class="stuck-menu">
 <div class="container">
 <div class="navigation"> <div class="megamenu">
-<h5>Categories</h5>
+<h5>Categor111ies</h5>
 <ul class="sf-menu">
 <li>
 <a href="index13cb.html?route=product/category&amp;path=28">Business Gifts</a>
 </li>
 <li>
-<a href="index7fa3.html?route=product/category&amp;path=18">Thanksgiving</a>
+<a href="index7fa3.html?route=product/category&amp;path=18">Thanks1giving</a>
 </li>
 <li>
 <a href="index1647.html?route=product/category&amp;path=25">Gift Baskets &amp; Towers</a>
@@ -1933,8 +1900,8 @@ Model: Party </p>
 
 <script>
     var tmp =1;
-    var marker_path = 'images/marker_map-42x63.png';
-    var marker_active_path = 'images/marker_map_active-42x63.png';
+    var marker_path = '<?php echo get_stylesheet_directory_uri() ?>/images/marker_map-42x63.png';
+    var marker_active_path = '<?php echo get_stylesheet_directory_uri() ?>/images/marker_map_active-42x63.png';
     var styles = [];
     var type;
     switch (tmp) {
@@ -1975,6 +1942,8 @@ Model: Party </p>
 
 
 </div>
+
+<div class="ajax-overlay"></div>
 
 <? wp_footer(); // Необходимо для нормальной работы плагинов
 ?>
