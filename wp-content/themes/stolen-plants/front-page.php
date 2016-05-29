@@ -120,7 +120,7 @@
 </div>
 </nav>
 <div id="logo" class="logo">
-<a href="index9328.html?route=common/home"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.png" title="Fruit Gift" alt="Fruit Gift" class="img-responsive"/></a>
+<a href="index9328.html?route=common/home"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-plants.png" title="Fruit Gift" alt="Fruit Gift" class="img-responsive"/></a>
 </div>
 </div>
 <div class="pull-right">
