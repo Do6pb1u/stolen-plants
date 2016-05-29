@@ -53,6 +53,8 @@
 <script src="<?php echo get_stylesheet_directory_uri() ?>/js/superfish.min.js" type="text/javascript"></script>
 <script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.rd-navbar.min.js" type="text/javascript"></script>
 <script src="<?php echo get_stylesheet_directory_uri() ?>/js/device.min.js" type="text/javascript"></script>
+<script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.lazyload.js" type="text/javascript"></script>
+<script src="<?php echo get_stylesheet_directory_uri() ?>/js/base.js" type="text/javascript"></script>
 <!--[if lt IE 9]>
 			<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
@@ -146,11 +148,11 @@ Free shipping on all orders over $500</div>
 </div>
 </div>
 <div class="header_modules"><div id="parallax_43" class="parallax">
-<div data-source-url="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/parallax-1-2050x950.jpg" class="parallax-1">
+<div data-source-url="<?php echo get_stylesheet_directory_uri() ?>/images/Frame-29-05-2016-05-33-59.jpg" class="parallax-1">
 <div class="container">
 <div class="row">
 <div class="col-sm-12">
-<div class="circle"><h2>Fresh fruit <br>gifts for any <br>occasion</h2></div> </div>
+<div class="circle"><h1>Растения<br>декоративные<br>для Вас</h1></div> </div>
 </div>
 </div>
 </div>

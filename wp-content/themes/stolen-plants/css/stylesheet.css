@@ -5478,7 +5478,8 @@ aside #blog-search {
   line-height: 29px; }
   .parallax > div {
     padding: 67px 0 30px; }
-  .parallax h2 {
+  .parallax h2,
+  .parallax h1 {
     color: #fff; }
   .parallax p {
     font: 400 16px/24px "Roboto", sans-serif; }
@@ -5506,12 +5507,17 @@ div.parallax-1 {
     -webkit-border-radius: 170px;
     -moz-border-radius: 170px;
     border-radius: 170px; }
-    div.parallax-1 .circle h2 {
+    div.parallax-1 .circle h2,
+    div.parallax-1 .circle h1 {
       display: inline-block;
-      font: bold 48px/58px "Roboto", sans-serif;
+      font: bold 46px/58px "Roboto", sans-serif;
       letter-spacing: .5px;
       margin-bottom: 4px;
       vertical-align: middle; }
+    div.parallax-1 .circle h1:after {
+      content: "";
+      display: none;
+    }
 
 .content_bottom .parallax > div {
   padding: 46px 0 50px; }
@@ -6005,7 +6011,8 @@ footer {
       width: 270px;
       height: 270px;
       line-height: 270px; }
-      div.parallax-1 .circle h2 {
+      div.parallax-1 .circle h2,
+      div.parallax-1 .circle h1 {
         font-size: 38px;
         line-height: 46px; } }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -6015,7 +6022,8 @@ footer {
       width: 215px;
       height: 215px;
       line-height: 215px; }
-      div.parallax-1 .circle h2 {
+      div.parallax-1 .circle h2,
+      div.parallax-1 .circle h1 {
         font-size: 30px;
         line-height: 36px; }
 
@@ -6042,7 +6050,8 @@ footer {
       width: 215px;
       height: 215px;
       line-height: 215px; }
-      div.parallax-1 .circle h2 {
+      div.parallax-1 .circle h2,
+      div.parallax-1 .circle h1 {
         font-size: 30px;
         line-height: 36px; }
 
