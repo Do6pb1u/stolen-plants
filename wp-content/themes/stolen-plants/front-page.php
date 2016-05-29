@@ -23,134 +23,134 @@
 <h5>Categor111ies</h5>
 <ul class="sf-menu">
 <li>
-<a href="index13cb.html?route=product/category&amp;path=28">Категория 1</a>
+<a href="#">Категория 1</a>
 </li>
 <li>
-<a href="index7fa3.html?route=product/category&amp;path=18">Категория 2</a>
+<a href="#">Категория 2</a>
 </li>
 <li>
-<a href="index1647.html?route=product/category&amp;path=25">Категория 3</a>
+<a href="#">Категория 3</a>
 </li>
 <li class="sf-with-mega">
-<a href="index98dc.html?route=product/category&amp;path=20">Категория 4</a>
+<a href="#">Категория 4</a>
 <ul class="sf-mega">
 <li class="sf-mega_row">
 <div class="sf-mega_section" style="width: 25%">
 <div class="submenu_title">
-<a href="index8122.html?route=product/category&amp;path=34">
+<a href="#">
 Birthday </a>
 </div>
 <ul>
 <li>
-<a href="index67d8.html?route=product/category&amp;path=94">Birthday Best Sellers</a>
+<a href="#">Birthday Best Sellers</a>
 </li>
 <li>
-<a href="indexb3c3.html?route=product/category&amp;path=95">For Her</a>
+<a href="#">For Her</a>
 </li>
 <li>
-<a href="index5351.html?route=product/category&amp;path=96">For Him</a>
+<a href="#">For Him</a>
 </li>
 <li>
-<a href="indexfc48.html?route=product/category&amp;path=97">For Kids</a>
+<a href="#">For Kids</a>
 </li>
 </ul>
 </div>
 <div class="sf-mega_section" style="width: 25%">
 <div class="submenu_title">
-<a href="index68ea.html?route=product/category&amp;path=33">
+<a href="#">
 Occasions </a>
 </div>
 <ul>
 <li>
-<a href="index320b.html?route=product/category&amp;path=101">Anniversary</a>
+<a href="#">Anniversary</a>
 </li>
 <li>
-<a href="indexd43a.html?route=product/category&amp;path=122">Baby Shower</a>
+<a href="#">Baby Shower</a>
 </li>
 <li>
-<a href="indexebd7.html?route=product/category&amp;path=67">Birthday</a>
+<a href="#">Birthday</a>
 </li>
 <li>
-<a href="index2e37.html?route=product/category&amp;path=104">Business Gifts</a>
+<a href="#">Business Gifts</a>
 </li>
 </ul>
 </div>
 <div class="sf-mega_section" style="width: 25%">
 <div class="submenu_title">
-<a href="index103d.html?route=product/category&amp;path=32">
+<a href="#">
 Best Sellers </a>
 </div>
 <ul>
 <li>
-<a href="indexef58.html?route=product/category&amp;path=37">Cake Truffles</a>
+<a href="#">Cake Truffles</a>
 </li>
 <li>
-<a href="indexef1f.html?route=product/category&amp;path=106">Cake Pops</a>
+<a href="#">Cake Pops</a>
 </li>
 <li>
-<a href="index8fdd.html?route=product/category&amp;path=107">Brownie Pops</a>
+<a href="#">Brownie Pops</a>
 </li>
 <li>
-<a href="indexc00c.html?route=product/category&amp;path=108">Cheesecakes</a>
+<a href="#">Cheesecakes</a>
 </li>
 </ul>
 </div>
 <div class="sf-mega_section" style="width: 25%">
 <div class="submenu_title">
-<a href="indexc262.html?route=product/category&amp;path=30">
+<a href="#">
 New &amp; Seasonal </a>
 </div>
 <ul>
 <li>
-<a href="index1977.html?route=product/category&amp;path=111">All New &amp; Seasonal</a>
+<a href="#">All New &amp; Seasonal</a>
 </li>
 <li>
-<a href="index607a.html?route=product/category&amp;path=112">Christmas Gift Guide</a>
+<a href="#">Christmas Gift Guide</a>
 </li>
 <li>
-<a href="index3ce8.html?route=product/category&amp;path=118">Christmas Best Sellers</a>
+<a href="#">Christmas Best Sellers</a>
 </li>
 <li>
-<a href="indexb19e.html?route=product/category&amp;path=119">Dipped Strawberries</a>
+<a href="#">Dipped Strawberries</a>
 </li>
 </ul>
 </div>
 </li><li class="sf-mega_row">
 <div class="sf-mega_section" style="width: 25%">
 <div class="submenu_title">
-<a href="indexfaea.html?route=product/category&amp;path=115">
+<a href="#">
 Dipped Fruits &amp; Sweets </a>
 </div>
 <ul>
 <li>
-<a href="indexea90.html?route=product/category&amp;path=98">New Arrivals</a>
+<a href="#">New Arrivals</a>
 </li>
 <li>
-<a href="index7fd1.html?route=product/category&amp;path=99">Dipped Fruit Best Sellers</a>
+<a href="#">Dipped Fruit Best Sellers</a>
 </li>
 <li>
-<a href="index9a06.html?route=product/category&amp;path=93">Strawberries</a>
+<a href="#">Strawberries</a>
 </li>
 </ul>
 </div>
 <div class="sf-mega_section" style="width: 25%">
 <div class="submenu_title">
-<a href="indexb2a7.html?route=product/category&amp;path=91">
+<a href="#">
 Specials </a>
 </div>
 <ul>
 <li>
-<a href="index70e1.html?route=product/category&amp;path=90">Shop Our Sale</a>
+<a href="#">Shop Our Sale</a>
 </li>
 <li>
-<a href="index7737.html?route=product/category&amp;path=124">Limited Time Only</a>
+<a href="#">Limited Time Only</a>
 </li>
 </ul>
 </div>
 </ul>
 </li>
 <li>
-<a href="indexf110.html?route=product/special">Категория 5</a>
+<a href="#">Категория 5</a>
 </li>
 </ul>
 </div>
@@ -170,7 +170,7 @@ Specials </a>
   <div id="banner0" class="banners row">
     <div class="col-sm-4 banner-1">
       <div class="banner-box">
-      <a class="clearfix" href="index2ebe.html?route=product/product&amp;product_id=46">
+      <a class="clearfix" href="#">
       <img src="<?php echo get_stylesheet_directory_uri() ?>/images/menu_banner1.jpg" alt="banner-1"/>
       <div class="s-desc"><div class="circle"><div>
       Хвойные деревья<br>
@@ -181,7 +181,7 @@ Specials </a>
     </div>
     <div class="col-sm-4 banner-2">
       <div class="banner-box">
-      <a class="clearfix" href="index6a4d.html?route=product/product&amp;product_id=33">
+      <a class="clearfix" href="#">
       <img src="<?php echo get_stylesheet_directory_uri() ?>/images/menu_banner2.jpg" alt="banner-2"/>
       <div class="s-desc"><div class="circle color-1"><div>
       Лиственные<br> деревья<br>
@@ -192,7 +192,7 @@ Specials </a>
     </div>
     <div class="col-sm-4 banner-3">
       <div class="banner-box">
-      <a class="clearfix" href="indexfac8.html?route=product/product&amp;product_id=35">
+      <a class="clearfix" href="#">
       <img src="<?php echo get_stylesheet_directory_uri() ?>/images/menu_banner3.jpg" alt="banner-3"/>
       <div class="s-desc"><div class="circle color-2"><div>
       Вьющиеся<br> деревья<br>
@@ -205,7 +205,7 @@ Specials </a>
 
 <div class="box featured">
   <div class="box-heading">
-    <h3>Featured</h3>
+    <h3>Рекомендуемые</h3>
   </div>
   <div class="box-content">
     <div class="row">
@@ -243,7 +243,7 @@ Specials </a>
             <div id="quickview_20010" class="quickview-style">
               <div class="left col-sm-4">
                 <div class="quickview_image image">
-                  <a href="index2ebe.html?route=product/product&amp;product_id=46">
+                  <a href="#">
                     <img alt="Snacks Round Basket Premium" title="Snacks Round Basket Premium" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
                   </a>
                 </div>
@@ -251,12 +251,12 @@ Specials </a>
             </div>
           </div>
           <div class="image">
-            <a class="lazy" style="padding-bottom: 100%" href="index2ebe.html?route=product/product&amp;product_id=46">
+            <a class="lazy" style="padding-bottom: 100%" href="#">
               <img alt="Snacks Round Basket Premium" title="Snacks Round Basket Premium" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
           </div>
 
           <div class="caption">
-            <div class="name"> <a href="index2ebe.html?route=product/product&amp;product_id=46">Snacks Round Basket Premium</a> </div>
+            <div class="name"> <a href="#">Snacks Round Basket Premium</a> </div>
             <div class="price">
               $45.00 </div>
               <button class="product-btn btn-add" type="button" data-toggle="tooltip" title="Add to Cart" onclick="ajaxAdd($(this),46);"><i class="fa fa-shopping-cart"></i></button>
@@ -313,7 +313,7 @@ Birthday (+$15.00) </label>
 <div id="quickview_20020" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="index6a4d.html?route=product/product&amp;product_id=33">
+<a href="#">
 <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -322,7 +322,7 @@ Birthday (+$15.00) </label>
 <h3>Cute Christmas Gift Basket </h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="index141c.html?route=product/manufacturer/info&amp;manufacturer_id=15">Chelsea market baskets</a>
+Brand: <a href="#">Chelsea market baskets</a>
 </p>
 <p class="product_model model">
 Model: Deluxe </p>
@@ -346,13 +346,13 @@ Model: Deluxe </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index6a4d.html?route=product/product&amp;product_id=33"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="index6a4d.html?route=product/product&amp;product_id=33">Cute Christmas Gift Basket </a> </div>
+<div class="name"> <a href="#">Cute Christmas Gift Basket </a> </div>
 <div class="price">
 <span class="price-old">$40.00</span><br>
 <span class="price-new">$29.00</span>
@@ -448,7 +448,7 @@ Green (+$10.00) </label>
 <div id="quickview_20030" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="indexfac8.html?route=product/product&amp;product_id=35">
+<a href="#">
 <img alt="Bloom Dried Fruit Basket" title="Bloom Dried Fruit Basket" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -457,7 +457,7 @@ Green (+$10.00) </label>
 <h3>Bloom Dried Fruit Basket</h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="indexe609.html?route=product/manufacturer/info&amp;manufacturer_id=17">Golden state fruit</a>
+Brand: <a href="#">Golden state fruit</a>
 </p>
 <p class="product_model model">
 Model: Regular </p>
@@ -479,13 +479,13 @@ $54.00 </div>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexfac8.html?route=product/product&amp;product_id=35"> <img alt="Bloom Dried Fruit Basket" title="Bloom Dried Fruit Basket" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Bloom Dried Fruit Basket" title="Bloom Dried Fruit Basket" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="new_pr"><span>New</span></span>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="indexfac8.html?route=product/product&amp;product_id=35">Bloom Dried Fruit Basket</a> </div>
+<div class="name"> <a href="#">Bloom Dried Fruit Basket</a> </div>
 <div class="price">
 $54.00 </div>
 <button class="product-btn btn-add" type="button" data-toggle="tooltip" title="Add to Cart" onclick="ajaxAdd($(this),35);"><i class="fa fa-shopping-cart"></i></button>
@@ -556,7 +556,7 @@ Green (+$10.00) </label>
 <div id="quickview_20040" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="index5e0b.html?route=product/product&amp;product_id=36">
+<a href="#">
 <img alt="Goldenvale Snacks Fruit and Nut" title="Goldenvale Snacks Fruit and Nut" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -565,7 +565,7 @@ Green (+$10.00) </label>
 <h3>Goldenvale Snacks Fruit and Nut</h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="index6707.html?route=product/manufacturer/info&amp;manufacturer_id=18">Wine Country Gift Baskets</a>
+Brand: <a href="#">Wine Country Gift Baskets</a>
 </p>
 <p class="product_model model">
 Model: Deluxe </p>
@@ -587,13 +587,13 @@ $22.00 </div>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index5e0b.html?route=product/product&amp;product_id=36"> <img alt="Goldenvale Snacks Fruit and Nut" title="Goldenvale Snacks Fruit and Nut" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Goldenvale Snacks Fruit and Nut" title="Goldenvale Snacks Fruit and Nut" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="new_pr"><span>New</span></span>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="index5e0b.html?route=product/product&amp;product_id=36">Goldenvale Snacks Fruit and Nut</a> </div>
+<div class="name"> <a href="#">Goldenvale Snacks Fruit and Nut</a> </div>
 <div class="price">
 $22.00 </div>
 <button class="product-btn btn-add" type="button" data-toggle="tooltip" title="Add to Cart" onclick="ajaxAdd($(this),36);"><i class="fa fa-shopping-cart"></i></button>
@@ -664,7 +664,7 @@ Green (+$10.00) </label>
 <div id="quickview_20050" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="index6320.html?route=product/product&amp;product_id=28">
+<a href="#">
 <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -673,7 +673,7 @@ Green (+$10.00) </label>
 <h3>Fresh and Floral Gift Tower </h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="indexa05a.html?route=product/manufacturer/info&amp;manufacturer_id=11">Harry and David</a>
+Brand: <a href="#">Harry and David</a>
 </p>
 <p class="product_model model">
 Model: Banquet </p>
@@ -697,13 +697,13 @@ Model: Banquet </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index6320.html?route=product/product&amp;product_id=28"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="index6320.html?route=product/product&amp;product_id=28">Fresh and Floral Gift Tower </a> </div>
+<div class="name"> <a href="#">Fresh and Floral Gift Tower </a> </div>
 <div class="price">
 <span class="price-old">$30.00</span><br>
 <span class="price-new">$24.00</span>
@@ -766,7 +766,7 @@ Green (+$10.00) </label>
 <div id="quickview_20060" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="indexa17e.html?route=product/product&amp;product_id=32">
+<a href="#">
 <img alt="Saphire Sympathy Gift Tower" title="Saphire Sympathy Gift Tower" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -775,7 +775,7 @@ Green (+$10.00) </label>
 <h3>Saphire Sympathy Gift Tower</h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="index568e.html?route=product/manufacturer/info&amp;manufacturer_id=14">Shari's berries</a>
+Brand: <a href="#">Shari's berries</a>
 </p>
 <p class="product_model model">
 Model: Regular </p>
@@ -799,13 +799,13 @@ Model: Regular </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexa17e.html?route=product/product&amp;product_id=32"> <img alt="Saphire Sympathy Gift Tower" title="Saphire Sympathy Gift Tower" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Saphire Sympathy Gift Tower" title="Saphire Sympathy Gift Tower" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="indexa17e.html?route=product/product&amp;product_id=32">Saphire Sympathy Gift Tower</a> </div>
+<div class="name"> <a href="#">Saphire Sympathy Gift Tower</a> </div>
 <div class="price">
 <span class="price-old">$43.00</span><br>
 <span class="price-new">$32.00</span>
@@ -868,7 +868,7 @@ Green (+$10.00) </label>
 <div id="quickview_20070" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="indexb8ca.html?route=product/product&amp;product_id=43">
+<a href="#">
 <img alt="Goldenvale Snacks Fruit Pine" title="Goldenvale Snacks Fruit Pine" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -877,7 +877,7 @@ Green (+$10.00) </label>
 <h3>Goldenvale Snacks Fruit Pine</h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="index1c6a.html?route=product/manufacturer/info&amp;manufacturer_id=13">Edible arrangements</a>
+Brand: <a href="#">Edible arrangements</a>
 </p>
 <p class="product_model model">
 Model: Deluxe </p>
@@ -901,13 +901,13 @@ Model: Deluxe </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexb8ca.html?route=product/product&amp;product_id=43"> <img alt="Goldenvale Snacks Fruit Pine" title="Goldenvale Snacks Fruit Pine" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Goldenvale Snacks Fruit Pine" title="Goldenvale Snacks Fruit Pine" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="indexb8ca.html?route=product/product&amp;product_id=43">Goldenvale Snacks Fruit Pine</a> </div>
+<div class="name"> <a href="#">Goldenvale Snacks Fruit Pine</a> </div>
 <div class="price">
 <span class="price-old">$30.00</span><br>
 <span class="price-new">$26.40</span>
@@ -957,7 +957,7 @@ Large (+$10.00) </option>
 <div id="quickview_20080" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="indexcae8.html?route=product/product&amp;product_id=41">
+<a href="#">
 <img alt="Fruit Gold Giftbox Deluxe" title="Fruit Gold Giftbox Deluxe" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -966,7 +966,7 @@ Large (+$10.00) </option>
 <h3>Fruit Gold Giftbox Deluxe</h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="indexa05a.html?route=product/manufacturer/info&amp;manufacturer_id=11">Harry and David</a>
+Brand: <a href="#">Harry and David</a>
 </p>
 <p class="product_model model">
 Model: Banquet </p>
@@ -990,13 +990,13 @@ Model: Banquet </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexcae8.html?route=product/product&amp;product_id=41"> <img alt="Fruit Gold Giftbox Deluxe" title="Fruit Gold Giftbox Deluxe" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Fruit Gold Giftbox Deluxe" title="Fruit Gold Giftbox Deluxe" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="new_pr"><span>New</span></span>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="indexcae8.html?route=product/product&amp;product_id=41">Fruit Gold Giftbox Deluxe</a> </div>
+<div class="name"> <a href="#">Fruit Gold Giftbox Deluxe</a> </div>
 <div class="price">
 <span class="price-old">$38.00</span><br>
 <span class="price-new">$33.60</span>
@@ -1015,7 +1015,7 @@ Model: Banquet </p>
 </div>
 <div class="box specials">
 <div class="box-heading">
-<h3>Specials</h3>
+<h3>Специальные предложения</h3>
 </div>
 <div class="box-content">
 <div class="row">
@@ -1068,7 +1068,7 @@ Green (+$10.00) </label>
 <div id="quickview_specials_10010" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="indexd21c.html?route=product/product&amp;product_id=47">
+<a href="#">
 <img alt="A Healthy Gift Idea by Broadway" title="A Healthy Gift Idea by Broadway" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -1077,7 +1077,7 @@ Green (+$10.00) </label>
 <h3>A Healthy Gift Idea by Broadway</h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="indexe609.html?route=product/manufacturer/info&amp;manufacturer_id=17">Golden state fruit</a>
+Brand: <a href="#">Golden state fruit</a>
 </p>
 <p class="product_model model">
 Model: Deluxe </p>
@@ -1108,7 +1108,7 @@ Model: Deluxe </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="indexd21c.html?route=product/product&amp;product_id=47"> <img alt="A Healthy Gift Idea by Broadway" title="A Healthy Gift Idea by Broadway" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="A Healthy Gift Idea by Broadway" title="A Healthy Gift Idea by Broadway" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
 <div class="rating">
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
@@ -1121,7 +1121,7 @@ Model: Deluxe </p>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="indexd21c.html?route=product/product&amp;product_id=47">A Healthy Gift Idea by Broadway</a> </div>
+<div class="name"> <a href="#">A Healthy Gift Idea by Broadway</a> </div>
 <div class="price">
 <span class="price-old">$44.00</span><br>
 <span class="price-new">$23.20</span>
@@ -1174,7 +1174,7 @@ Birthday (+$15.00) </label>
 <div id="quickview_specials_10020" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="index6a4d.html?route=product/product&amp;product_id=33">
+<a href="#">
 <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -1183,7 +1183,7 @@ Birthday (+$15.00) </label>
 <h3>Cute Christmas Gift Basket </h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="index141c.html?route=product/manufacturer/info&amp;manufacturer_id=15">Chelsea market baskets</a>
+Brand: <a href="#">Chelsea market baskets</a>
 </p>
 <p class="product_model model">
 Model: Deluxe </p>
@@ -1207,13 +1207,13 @@ Model: Deluxe </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index6a4d.html?route=product/product&amp;product_id=33"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="index6a4d.html?route=product/product&amp;product_id=33">Cute Christmas Gift Basket </a> </div>
+<div class="name"> <a href="#">Cute Christmas Gift Basket </a> </div>
 <div class="price">
 <span class="price-old">$40.00</span><br>
 <span class="price-new">$29.00</span>
@@ -1286,7 +1286,7 @@ Green (+$10.00) </label>
 <div id="quickview_specials_10030" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="index6320.html?route=product/product&amp;product_id=28">
+<a href="#">
 <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -1295,7 +1295,7 @@ Green (+$10.00) </label>
 <h3>Fresh and Floral Gift Tower </h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="indexa05a.html?route=product/manufacturer/info&amp;manufacturer_id=11">Harry and David</a>
+Brand: <a href="#">Harry and David</a>
 </p>
 <p class="product_model model">
 Model: Banquet </p>
@@ -1319,13 +1319,13 @@ Model: Banquet </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index6320.html?route=product/product&amp;product_id=28"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
 <span class="sale"><span>Sale</span></span>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="index6320.html?route=product/product&amp;product_id=28">Fresh and Floral Gift Tower </a> </div>
+<div class="name"> <a href="#">Fresh and Floral Gift Tower </a> </div>
 <div class="price">
 <span class="price-old">$30.00</span><br>
 <span class="price-new">$24.00</span>
@@ -1388,7 +1388,7 @@ Green </label>
 <div id="quickview_specials_10040" class="quickview-style">
 <div class="left col-sm-4">
 <div class="quickview_image image">
-<a href="index0f47.html?route=product/product&amp;product_id=29">
+<a href="#">
 <img alt="Fruit and Nut Crate Gift Tray " title="Fruit and Nut Crate Gift Tray " class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg"/>
 </a>
 </div>
@@ -1397,7 +1397,7 @@ Green </label>
 <h3>Fruit and Nut Crate Gift Tray </h3>
 <div class="inf">
 <p class="quickview_manufacture manufacture manufacture">
-Brand: <a href="index82cc.html?route=product/manufacturer/info&amp;manufacturer_id=12">The Fruit Company</a>
+Brand: <a href="#">The Fruit Company</a>
 </p>
 <p class="product_model model">
 Model: Party </p>
@@ -1428,7 +1428,7 @@ Model: Party </p>
 </div>
 </div>
 <div class="image">
-<a class="lazy" style="padding-bottom: 100%" href="index0f47.html?route=product/product&amp;product_id=29"> <img alt="Fruit and Nut Crate Gift Tray " title="Fruit and Nut Crate Gift Tray " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
+<a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Fruit and Nut Crate Gift Tray " title="Fruit and Nut Crate Gift Tray " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
 <div class="rating">
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
@@ -1441,7 +1441,7 @@ Model: Party </p>
  
 </div>
 <div class="caption">
-<div class="name"> <a href="index0f47.html?route=product/product&amp;product_id=29">Fruit and Nut Crate Gift Tray </a> </div>
+<div class="name"> <a href="#">Fruit and Nut Crate Gift Tray </a> </div>
 <div class="price">
 <span class="price-old">$27.00</span><br>
 <span class="price-new">$21.60</span>
@@ -1479,7 +1479,7 @@ Model: Party </p>
 <div class="box-content">
 <div
 					class="fb-page"
-					data-href="https://www.facebook.com/TemplateMonster"
+					data-href="#"
 					data-width="470"
 					data-height="201"
 					data-hide-cover="false"

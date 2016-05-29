@@ -333,7 +333,7 @@
 </section>
       <div class="copyright">
         <div class="container">
-            Powered By <a href="http://www.opencart.com/">OpenCart</a><br /> Fruit Gift &copy; 2016<!-- [[%FOOTER_LINK]] -->
+            c 2016
         </div>
     </div>
 </footer>

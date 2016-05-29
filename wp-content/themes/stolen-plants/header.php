@@ -38,24 +38,24 @@
           <a class="toggle fa fa-bars" href='#'></a>
           <div class="toggle_cont">
             <ul class="list-unstyled">
-              <li> <a href="indexe223.html?route=account/login">Категория 1</a> </li>
-              <li> <a href="index5502.html?route=account/register">Категория 2</a> </li>
-              <li> <a href="index4628.html?route=account/wishlist">Категория 3</a> </li>
-              <li> <a href="index630e.html?route=checkout/cart">Категория 4</a> </li>
-              <li> <a href="indexf1a8.html?route=checkout/checkout">Категория 5</a> </li>
+              <li> <a href="#">Категория 1</a> </li>
+              <li> <a href="#">Категория 2</a> </li>
+              <li> <a href="#">Категория 3</a> </li>
+              <li> <a href="#">Категория 4</a> </li>
+              <li> <a href="#">Категория 5</a> </li>
             </ul>
           </div>
         </nav>
 
         <div id="logo" class="logo">
-        <a href="index9328.html?route=common/home"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-plants.png" title="Fruit Gift" alt="Fruit Gift" class="img-responsive"/></a>
+        <a href="/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-plants.png" title="Fruit Gift" alt="Fruit Gift" class="img-responsive"/></a>
         </div>
       </div>
       <div class="pull-right">
       <div class="top"><div class="box_html delivery">
       Заказы принимаются с 10-00 до 22-00</div>
       </div>
-      <span class="phone"><i class="fa fa-phone"></i><a href="tel:1-800-1234-567">+7(978) 792-54-33</a></span>
+      <span class="phone"><i class="fa fa-phone"></i><a href="tel:+79787925433">+7(978) 792-54-33</a></span>
       <div class="box-cart">
       <div id="cart" class="cart toggle-wrap">
       <button type="button" data-loading-text="Loading..." class="toggle">
