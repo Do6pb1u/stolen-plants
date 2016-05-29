@@ -1,47 +1,77 @@
-<?php
-/**
- * Чистый Шаблон для разработки
- * Шаблон хэдера
- * http://dontforget.pro
- * @package WordPress
- * @subpackage clean
- */
-?>
 <!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]>
+  <html dir="ltr" lang="en" class="ie8">
+  <![endif]-->
+<!--[if IE 9 ]>
+  <html dir="ltr" lang="en" class="ie9">
+  <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="ru">
+<!--<![endif]-->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="UTF-8">
-<!-- RSS, стиль и всякая фигня -->
-<link rel="alternate" type="application/rdf+xml" title="RDF mapping" href="<?php bloginfo('rdf_url'); ?>" />
-<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php bloginfo('rss_url'); ?>" />
-<link rel="alternate" type="application/rss+xml" title="Comments RSS" href="<?php bloginfo('comments_rss2_url'); ?>" />
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
- <!--[if lt IE 9]>
- <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- <![endif]-->
-<title>
-<?php // Генерируем тайтл в зависимости от контента с разделителем " | "
-	global $page, $paged;
-	wp_title( '|', true, 'right' );
-	bloginfo( 'name' );
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		echo " | $site_description";
-	if ( $paged >= 2 || $page >= 2 )
-		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
-?>
-</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ёлочки</title>
+<base />
+<meta name="description" content="Fruit Gift"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 <?php
-	wp_head(); // Необходимо для работы плагинов и функционала wp
+  wp_head();
 ?>
+ 
+
+<script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true" type="text/javascript"></script>
 </head>
-<body>
-<?php
-		$args = array( // Выводим верхнее меню
-			'theme_location'=>'top',
-			'container'=>'',
-			'depth'=> 0);
-		wp_nav_menu($args);
-?>
+<body class="common-home">
+<div id="page">
+<header>
+
+<div id="stuck">
+  <div class="header__top">
+    <div class="container">
+      <div>
+        <nav id="top-links" class="nav toggle-wrap">
+          <a class="toggle fa fa-bars" href='#'></a>
+          <div class="toggle_cont">
+            <ul class="list-unstyled">
+              <li> <a href="indexe223.html?route=account/login">Sign In</a> </li>
+              <li> <a href="index5502.html?route=account/register">Registration</a> </li>
+              <li> <a href="index4628.html?route=account/wishlist"> Wish List </a> </li>
+              <li> <a href="index630e.html?route=checkout/cart"> Shopping Cart </a> </li>
+              <li> <a href="indexf1a8.html?route=checkout/checkout"> Checkout </a> </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div id="logo" class="logo">
+        <a href="index9328.html?route=common/home"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-plants.png" title="Fruit Gift" alt="Fruit Gift" class="img-responsive"/></a>
+        </div>
+      </div>
+      <div class="pull-right">
+      <div class="top"><div class="box_html delivery">
+      Заказы принимаются с 10-00 до 22-00</div>
+      </div>
+      <span class="phone"><i class="fa fa-phone"></i><a href="tel:1-800-1234-567">+7(978) 792-54-33</a></span>
+      <div class="box-cart">
+      <div id="cart" class="cart toggle-wrap">
+      <button type="button" data-loading-text="Loading..." class="toggle">
+      <i class="fa fa-shopping-cart"></i>
+      <strong>Shopping Cart</strong>
+      <span id="cart-total" class="cart-total">0 item(s) - $0.00</span>
+      <span id="cart-total2" class="cart-total2">0</span>
+      </button>
+      <ul class="pull-right toggle_cont">
+      <li>
+      <p class="text-center">Your shopping cart is empty!</p>
+      </li>
+      </ul>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
