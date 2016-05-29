@@ -348,7 +348,7 @@ Model: Deluxe </p>
 <div class="image">
 <a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
-<span class="sale"><span>Sale</span></span>
+<span class="sale"><span>Скидка</span></span>
  
 </div>
 <div class="caption">
@@ -481,7 +481,7 @@ $54.00 </div>
 <div class="image">
 <a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Bloom Dried Fruit Basket" title="Bloom Dried Fruit Basket" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
-<span class="new_pr"><span>New</span></span>
+<span class="new_pr"><span>Новинка</span></span>
  
 </div>
 <div class="caption">
@@ -589,7 +589,7 @@ $22.00 </div>
 <div class="image">
 <a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Goldenvale Snacks Fruit and Nut" title="Goldenvale Snacks Fruit and Nut" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
-<span class="new_pr"><span>New</span></span>
+<span class="new_pr"><span>Новинка</span></span>
  
 </div>
 <div class="caption">
@@ -699,7 +699,7 @@ Model: Banquet </p>
 <div class="image">
 <a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
-<span class="sale"><span>Sale</span></span>
+<span class="sale"><span>Скидка</span></span>
  
 </div>
 <div class="caption">
@@ -801,7 +801,7 @@ Model: Regular </p>
 <div class="image">
 <a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Saphire Sympathy Gift Tower" title="Saphire Sympathy Gift Tower" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
-<span class="sale"><span>Sale</span></span>
+<span class="sale"><span>Скидка</span></span>
  
 </div>
 <div class="caption">
@@ -903,7 +903,7 @@ Model: Deluxe </p>
 <div class="image">
 <a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Goldenvale Snacks Fruit Pine" title="Goldenvale Snacks Fruit Pine" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
-<span class="sale"><span>Sale</span></span>
+<span class="sale"><span>Скидка</span></span>
  
 </div>
 <div class="caption">
@@ -992,7 +992,7 @@ Model: Banquet </p>
 <div class="image">
 <a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Fruit Gold Giftbox Deluxe" title="Fruit Gold Giftbox Deluxe" class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
-<span class="new_pr"><span>New</span></span>
+<span class="new_pr"><span>Новинка</span></span>
  
 </div>
 <div class="caption">
@@ -1117,7 +1117,7 @@ Model: Deluxe </p>
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
 </div>
  
-<span class="sale"><span>Sale</span></span>
+<span class="sale"><span>Скидка</span></span>
  
 </div>
 <div class="caption">
@@ -1209,7 +1209,7 @@ Model: Deluxe </p>
 <div class="image">
 <a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Cute Christmas Gift Basket " title="Cute Christmas Gift Basket " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
-<span class="sale"><span>Sale</span></span>
+<span class="sale"><span>Скидка</span></span>
  
 </div>
 <div class="caption">
@@ -1321,7 +1321,7 @@ Model: Banquet </p>
 <div class="image">
 <a class="lazy" style="padding-bottom: 100%" href="#"> <img alt="Fresh and Floral Gift Tower " title="Fresh and Floral Gift Tower " class="img-responsive" data-src="<?php echo get_stylesheet_directory_uri() ?>/images/thuja-occidentalis-danica.jpg" src="#"/> </a>
  
-<span class="sale"><span>Sale</span></span>
+<span class="sale"><span>Скидка</span></span>
  
 </div>
 <div class="caption">
@@ -1437,7 +1437,7 @@ Model: Party </p>
 <span class="fa-stack"> <i class="fa fa-star fa-stack-1x"></i> </span>
 </div>
  
-<span class="sale"><span>Sale</span></span>
+<span class="sale"><span>Скидка</span></span>
  
 </div>
 <div class="caption">
