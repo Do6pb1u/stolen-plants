@@ -23,16 +23,16 @@
 <h5>Categor111ies</h5>
 <ul class="sf-menu">
 <li>
-<a href="index13cb.html?route=product/category&amp;path=28">Business Gifts</a>
+<a href="index13cb.html?route=product/category&amp;path=28">Категория 1</a>
 </li>
 <li>
-<a href="index7fa3.html?route=product/category&amp;path=18">Thanks1giving</a>
+<a href="index7fa3.html?route=product/category&amp;path=18">Категория 2</a>
 </li>
 <li>
-<a href="index1647.html?route=product/category&amp;path=25">Gift Baskets &amp; Towers</a>
+<a href="index1647.html?route=product/category&amp;path=25">Категория 3</a>
 </li>
 <li class="sf-with-mega">
-<a href="index98dc.html?route=product/category&amp;path=20">Others</a>
+<a href="index98dc.html?route=product/category&amp;path=20">Категория 4</a>
 <ul class="sf-mega">
 <li class="sf-mega_row">
 <div class="sf-mega_section" style="width: 25%">
@@ -150,7 +150,7 @@ Specials </a>
 </ul>
 </li>
 <li>
-<a href="indexf110.html?route=product/special">Sale</a>
+<a href="indexf110.html?route=product/special">Категория 5</a>
 </li>
 </ul>
 </div>
@@ -1464,7 +1464,7 @@ Model: Party </p>
 </section>
 <section class="content_bottom">
 <div class="container"><div class="row"><div id="parallax_42" class="parallax">
-<div data-source-url="http://livedemo00.template-help.com/opencart_58166/image/cache/catalog/parallax-2-2050x1200.jpg" class="parallax-2">
+<div data-source-url="<?php echo get_stylesheet_directory_uri() ?>/images/paralax2.jpg" class="parallax-2">
 <div class="container">
 <div class="row">
 <div class="col-sm-12">

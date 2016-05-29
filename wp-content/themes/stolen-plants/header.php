@@ -38,11 +38,11 @@
           <a class="toggle fa fa-bars" href='#'></a>
           <div class="toggle_cont">
             <ul class="list-unstyled">
-              <li> <a href="indexe223.html?route=account/login">Sign In</a> </li>
-              <li> <a href="index5502.html?route=account/register">Registration</a> </li>
-              <li> <a href="index4628.html?route=account/wishlist"> Wish List </a> </li>
-              <li> <a href="index630e.html?route=checkout/cart"> Shopping Cart </a> </li>
-              <li> <a href="indexf1a8.html?route=checkout/checkout"> Checkout </a> </li>
+              <li> <a href="indexe223.html?route=account/login">Категория 1</a> </li>
+              <li> <a href="index5502.html?route=account/register">Категория 2</a> </li>
+              <li> <a href="index4628.html?route=account/wishlist">Категория 3</a> </li>
+              <li> <a href="index630e.html?route=checkout/cart">Категория 4</a> </li>
+              <li> <a href="indexf1a8.html?route=checkout/checkout">Категория 5</a> </li>
             </ul>
           </div>
         </nav>
