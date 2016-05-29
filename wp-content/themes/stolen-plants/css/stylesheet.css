@@ -5513,7 +5513,7 @@ div.parallax-1 {
     div.parallax-1 .circle h2,
     div.parallax-1 .circle h1 {
       display: inline-block;
-      font: bold 40px/58px "Roboto", sans-serif;
+      font: bold 44px/58px "Roboto", sans-serif;
       letter-spacing: .5px;
       margin-bottom: 4px;
       vertical-align: middle; }
@@ -6055,7 +6055,7 @@ footer {
       line-height: 215px; }
       div.parallax-1 .circle h2,
       div.parallax-1 .circle h1 {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 36px; }
 
   h1 {
