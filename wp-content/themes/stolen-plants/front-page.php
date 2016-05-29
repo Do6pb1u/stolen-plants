@@ -54,6 +54,7 @@
 <script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.rd-navbar.min.js" type="text/javascript"></script>
 <script src="<?php echo get_stylesheet_directory_uri() ?>/js/device.min.js" type="text/javascript"></script>
 <script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.lazyload.js" type="text/javascript"></script>
+<script src="<?php echo get_stylesheet_directory_uri() ?>/js/scrollfix.min.js" type="text/javascript"></script>
 <script src="<?php echo get_stylesheet_directory_uri() ?>/js/base.js" type="text/javascript"></script>
 <!--[if lt IE 9]>
 			<div style=' clear: both; text-align:center; position: relative;'>
@@ -124,9 +125,9 @@
 </div>
 <div class="pull-right">
 <div class="top"><div class="box_html delivery">
-Free shipping on all orders over $500</div>
+Заказы принимаются с 10-00 до 22-00</div>
 </div>
-<span class="phone"><i class="fa fa-phone"></i><a href="tel:1-800-1234-567">1-800-1234-567</a></span>
+<span class="phone"><i class="fa fa-phone"></i><a href="tel:1-800-1234-567">+7(978) 792-54-33</a></span>
 <a href="index4628.html?route=account/wishlist" id="wishlist-total" class="button_wishlist"> <i class="fa fa-heart"></i> <b>Wishlist:</b><span>0</span> </a>
 <div class="box-cart">
 <div id="cart" class="cart toggle-wrap">
