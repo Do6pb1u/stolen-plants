@@ -38,11 +38,15 @@
             <a class="toggle fa fa-bars" href='#'></a>
             <div class="toggle_cont">
               <ul class="list-unstyled">
-                <li> <a href="#">Категория 1</a> </li>
-                <li> <a href="#">Категория 2</a> </li>
-                <li> <a href="#">Категория 3</a> </li>
-                <li> <a href="#">Категория 4</a> </li>
-                <li> <a href="#">Категория 5</a> </li>
+
+                <? foreach($general['categories'] as $category): ?>
+                  <li>
+                    <a href="<?= get_term_link($category->term_id); ?>">
+                      <?= $category->name; ?>
+                    </a>
+                  </li>
+                <? endforeach; ?>
+
               </ul>
             </div>
           </nav>
@@ -91,18 +95,15 @@
       <div class="navigation">
         <div class="megamenu">
           <ul class="sf-menu">
-            <li>
-              <a href="#">Категория 1</a>
-            </li>
-            <li>
-              <a href="#">Категория 2</a>
-            </li>
-            <li>
-              <a href="#">Категория 3</a>
-            </li>
-            <li>
-              <a href="#">Категория 5</a>
-            </li>
+
+            <? foreach($general['categories'] as $category): ?>
+              <? $active = is_category($category->name) ? "class='active'" : ""; ?>
+              <li>
+                <a href="<?= get_term_link($category->term_id); ?>" <?= $active ?>>
+                  <?= $category->name; ?>
+                </a>
+              </li>
+            <? endforeach; ?>
           </ul>
         </div>
       </div>

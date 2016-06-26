@@ -23,48 +23,31 @@
     <div class="row">
       <div class="col-xs-6 col-sm-3">
         <div class="footer_box">
-          <h5>Information</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="index8816.html?route=information/information&amp;information_id=4">About Us</a>
-            </li>
-            <li>
-              <a href="index1766.html?route=information/information&amp;information_id=6">Delivery Information</a>
-            </li>
-            <li>
-              <a href="index1679.html?route=information/information&amp;information_id=3">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="index99e4.html?route=information/information&amp;information_id=5">Terms &amp; Conditions</a>
-            </li>
-            <li>
-              <a href="index7cb2.html?route=information/sitemap">Site Map</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-3">
-        <div class="footer_box category-block"> </div>
-      </div>
-      <div class="col-xs-6 col-sm-3">
-        <div class="footer_box">
-          <h5>My Account</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="index839c.html?route=account/account">My Account</a>
-            </li>
-            <li>
-              <a href="indexee92.html?route=account/order">Order History</a>
-            </li>
-            <li>
-              <a href="index4628.html?route=account/wishlist">Wish List</a>
-            </li>
-          </ul>
+          <h5>Информация</h5>
+
+          <? wp_nav_menu( array(
+            'menu' => 'footer_info',
+            'menu_class' => 'list-unstyled',
+            'container' => ''
+          )); ?>
+
         </div>
       </div>
       <div class="col-xs-6 col-sm-3">
         <div class="footer_box">
-          <h5>Contact Us</h5>
+          <h5>Категории</h5>
+          <ul class="list-unstyled">
+            <? foreach($general['categories'] as $category): ?>
+              <li>
+                <a href="<?= get_term_link($category->term_id); ?>"><?= $category->name ?></a>
+              </li>
+            <? endforeach; ?>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-sm-offset-2">
+        <div class="footer_box">
+          <h5>Свяжитесь с нами</h5>
           <ul class="list-unstyled contact-block">
             <li>
               <i class="fa fa-map-marker"></i>

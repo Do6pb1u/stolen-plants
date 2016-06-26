@@ -14,4 +14,8 @@ $general['hero_google_x']   = get_field('hero_google_x', 'option');
 $general['hero_google_y']   = get_field('hero_google_y', 'option');
 $general['hero_google_balloon_text'] = get_field('hero_google_balloon_text', 'option');
 
+// get all categories
+$current_category = "";
+$general['categories'] = get_terms('category', array());
+
 ?>
