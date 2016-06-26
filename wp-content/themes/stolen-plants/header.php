@@ -20,6 +20,7 @@
 
 <?php
   wp_head();
+  global $general;
 ?>
  
 
@@ -47,28 +48,28 @@
           </nav>
 
           <div id="logo" class="logo">
-          <a href="/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-plants.png" title="Fruit Gift" alt="Fruit Gift" class="img-responsive"/></a>
+          <a href="/"><img src="<?= $general['header_logo'] ?>" title="<?= $general['site_name']; ?>" alt="<?= $general['site_name']; ?>" class="img-responsive"/></a>
           </div>
         </div>
         <div class="pull-right">
         <div class="top"><div class="box_html delivery">
-        Заказы принимаются с 10-00 до 22-00</div>
+        <?= $general['header_middle_text']; ?></div>
         </div>
-        <span class="phone"><i class="fa fa-phone"></i><a href="tel:+79787925433">+7(978) 792-54-33</a></span>
+        <span class="phone"><i class="fa fa-phone"></i><a href="tel:<?= $general['header_phone_number_filtered']; ?>"><?= $general['header_phone_number']; ?></a></span>
         </div>
       </div>
     </div>
   </div>
 
-  <? if(is_home() || is_front_page()): ?>
+  <? if(is_home() || is_front_page()): global $content; ?>
     <div class="header_modules">
       <div id="parallax_43" class="parallax">
-        <div data-source-url="<?php echo get_stylesheet_directory_uri() ?>/images/1280px-SF_Japanese_Garden.JPG" class="parallax-1">
+        <div data-source-url="<?= $content['hero_main_image_url'] ?>" class="parallax-1">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
                 <div class="circle">
-                  <h1>Растения<br>декоративные<br>для Вас</h1>
+                  <h1><?= $content['hero_main_text'] ?></h1>
                 </div>
               </div>
             </div>

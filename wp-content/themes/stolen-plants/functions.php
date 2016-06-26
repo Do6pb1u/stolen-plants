@@ -7,8 +7,10 @@
  * @subpackage clean
  */
 
-function stolen_plants_enque_scripts() {
+define("THEME_PATH",                    dirname( __FILE__ ));
+define("THEME_HELPERS",                 dirname( __FILE__ ).'/helpers/');
 
+function stolen_plants_enque_scripts() {
   wp_enqueue_script('bootstrap.min-js', get_stylesheet_directory_uri().'/js/bootstrap.min.js', array() , false, true);
   wp_enqueue_script('device.min-js', get_stylesheet_directory_uri().'/js/device.min.js', array() , false, true);
   wp_enqueue_script('owl.carousel.min-js', get_stylesheet_directory_uri().'/js/owl.carousel.min.js', array() , false, true);
@@ -45,5 +47,19 @@ function stolen_plants_enque_styles() {
 }
 add_action('wp_print_styles', 'stolen_plants_enque_styles' );
 
+// Add a theme option page
+if( function_exists('acf_add_options_page') ) {
+  
+  acf_add_options_page(array(
+    'page_title'  => 'Настройки Темы',
+    'menu_title'  => 'Настройки Темы',
+    'menu_slug'   => 'theme-general-settings',
+    'capability'  => 'edit_posts',
+    'redirect'    => false
+  ));
+
+}
+
+include THEME_HELPERS . 'general.php';
 
 ?>

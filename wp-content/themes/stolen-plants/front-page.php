@@ -1,3 +1,4 @@
+<? include THEME_HELPERS . 'home.php'; ?>
 <? get_header(); ?>
 
 <section id="container">
@@ -5,51 +6,25 @@
     <div class="row">
       <div id="content" class="col-sm-12">
         <div id="banner0" class="banners row">
-          <div class="col-sm-4 banner-1">
-            <div class="banner-box">
-              <a class="clearfix" href="#">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/images/menu_banner1.jpg" alt="banner-1"/>
-                <div class="s-desc">
-                  <div class="circle">
-                    <div>
-                      Хвойные деревья<br>
-                      <i class="fa fa-shopping-cart"></i>
+
+          <? foreach($content['featured_pages'] as $index => $page): ?>
+            <div class="col-sm-4 banner-<? echo ($index+1); ?>">
+              <div class="banner-box">
+                <a class="clearfix" href="<?= $page['link_url'] ?>">
+                  <?= $page['page_preview_img'] ?>
+                  <div class="s-desc">
+                    <div class="circle color-<?= $index ?>">
+                      <div>
+                        <?= $page['link_text'] ?><br>
+                        <i class="fa fa-eye"></i>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-sm-4 banner-2">
-            <div class="banner-box">
-              <a class="clearfix" href="#">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/images/menu_banner2.jpg" alt="banner-2"/>
-                <div class="s-desc">
-                  <div class="circle color-1">
-                    <div>
-                      Лиственные<br> деревья<br>
-                      <i class="fa fa-shopping-cart"></i>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-4 banner-3">
-            <div class="banner-box">
-              <a class="clearfix" href="#">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/images/menu_banner3.jpg" alt="banner-3"/>
-                <div class="s-desc">
-                  <div class="circle color-2">
-                    <div>
-                      Вьющиеся<br> деревья<br>
-                      <i class="fa fa-shopping-cart"></i>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
+          <? endforeach; ?>
+
         </div>
         <div class="box featured">
           <div class="box-heading">

@@ -1,3 +1,4 @@
+<? include THEME_HELPERS . 'single-post.php' ?>
 <? get_header(); ?>
 
 <div class="container">

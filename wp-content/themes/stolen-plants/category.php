@@ -1,3 +1,4 @@
+<? include THEME_HELPERS . 'category.php' ?>
 <? get_header(); ?>
 
 <div class="container">
