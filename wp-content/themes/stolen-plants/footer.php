@@ -1,3 +1,38 @@
+<section class="content_bottom">
+  <div class="container">
+    <div class="row">
+      <div id="parallax_42" class="parallax">
+        <div data-source-url="http://stolen-plants/wp-content/themes/stolen-plants/images/paralax2.jpg" class="parallax-2" style="width: 1280px; margin-left: -640px; left: 50%; background-image: url(&quot;http://stolen-plants/wp-content/themes/stolen-plants/images/paralax2.jpg&quot;); background-attachment: fixed; background-position: 50% 80%;">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <p><br></p>
+              </div>
+            </div>
+            <div class="inner-module">
+              <div id="fb-root"></div>
+              <div class="facebook info">
+                <div class="box-heading">
+                  <h3>Facebook Box</h3>
+                </div>
+                <div class="box-content">
+                  <div class="fb-page" data-href="#" data-width="470" data-height="201" data-hide-cover="false" data-show-facepile="true" data-show-posts="true" <="" div="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    jQuery(document).ready(function () {
+        jQuery("#parallax_42>div").cherryFixedParallax({
+            invert: false
+        });
+    });
+  </script></div></div>
+</section>
+
 <footer>
   <div class="container">
     <div class="row">

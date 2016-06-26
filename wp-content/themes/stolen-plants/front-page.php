@@ -789,47 +789,5 @@
     </div>
   </div>
 </section>
-<section class="content_bottom">
-  <div class="container">
-    <div class="row">
-      <div id="parallax_42" class="parallax">
-        <div data-source-url="<?php echo get_stylesheet_directory_uri() ?>/images/paralax2.jpg" class="parallax-2">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <p><br></p>
-              </div>
-            </div>
-            <div class="inner-module">
-              <div id="fb-root"></div>
-              <div class="facebook info">
-                <div class="box-heading">
-                  <h3>Facebook Box</h3>
-                </div>
-                <div class="box-content">
-                  <div
-                  class="fb-page"
-                  data-href="#"
-                  data-width="470"
-                  data-height="201"
-                  data-hide-cover="false"
-                  data-show-facepile="true"
-                  data-show-posts="true"
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script>
-    jQuery(document).ready(function () {
-        jQuery("#parallax_42>div").cherryFixedParallax({
-            invert: false
-        });
-    });
-  </script></div></div>
-</section>
 
 <? get_footer(); ?>
