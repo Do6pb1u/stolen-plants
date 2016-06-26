@@ -297,5 +297,35 @@
     }
   })();
 
+  /* Box Carousel
+  ========================================================*/
+  ;
+  (function () {
+    var o = $('.box-carousel');
+    if (o.length > 0) {
+      $(document).ready(function () {
+        $.each(o, function () {
+          if ($(this).parents('aside').length == 0) {
+            o.owlCarousel({
+                          // Most important owl features
+                          items: 4,
+                          itemsCustom: false,
+                          itemsDesktop: [1199, 4],
+                          itemsDesktopSmall: [991, 3],
+                          itemsTablet: [767, 2],
+                          itemsTabletSmall: false,
+                          itemsMobile: [479, 1],
+
+                          // Navigation
+                          pagination: false,
+                          navigation: true,
+                          navigationText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
+                       });
+          }
+        });
+      });
+    }
+  })();
+
 
 })(window, jQuery);

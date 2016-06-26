@@ -1,55 +1,5 @@
 <? get_header(); ?>
 
-<div class="header_modules">
-  <div id="parallax_43" class="parallax">
-    <div data-source-url="<?php echo get_stylesheet_directory_uri() ?>/images/1280px-SF_Japanese_Garden.JPG" class="parallax-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="circle">
-              <h1>Растения<br>декоративные<br>для Вас</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script>
-    jQuery(document).ready(function () {
-        jQuery("#parallax_43>div").cherryFixedParallax({
-            invert: false
-        });
-    });
-  </script>
-</div>
-<div class="stuck-menu">
-  <div class="container">
-    <div class="navigation">
-      <div class="megamenu">
-        <ul class="sf-menu">
-          <li>
-            <a href="#">Категория 1</a>
-          </li>
-          <li>
-            <a href="#">Категория 2</a>
-          </li>
-          <li>
-            <a href="#">Категория 3</a>
-          </li>
-          <li>
-            <a href="#">Категория 5</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div id="search" class="search">
-      <div class="search-block">
-        <input type="text" name="search" value="" placeholder="Search"/><button type="button" class="button-search"><i class="fa fa-search"></i></button>
-      </div>
-    </div>
-  </div>
-</div>
-</header>
 <section id="container">
   <div class="container">
     <div class="row">

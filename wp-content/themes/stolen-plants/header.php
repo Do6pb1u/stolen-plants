@@ -13,7 +13,7 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ёлочки</title>
+<title>Изобильный Питомник</title>
 <base />
 <meta name="description" content="Fruit Gift"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,34 +29,87 @@
 <body class="common-home">
 <div id="page">
 <header>
+  <div id="stuck">
+    <div class="header__top">
+      <div class="container">
+        <div>
+          <nav id="top-links" class="nav toggle-wrap">
+            <a class="toggle fa fa-bars" href='#'></a>
+            <div class="toggle_cont">
+              <ul class="list-unstyled">
+                <li> <a href="#">Категория 1</a> </li>
+                <li> <a href="#">Категория 2</a> </li>
+                <li> <a href="#">Категория 3</a> </li>
+                <li> <a href="#">Категория 4</a> </li>
+                <li> <a href="#">Категория 5</a> </li>
+              </ul>
+            </div>
+          </nav>
 
-<div id="stuck">
-  <div class="header__top">
-    <div class="container">
-      <div>
-        <nav id="top-links" class="nav toggle-wrap">
-          <a class="toggle fa fa-bars" href='#'></a>
-          <div class="toggle_cont">
-            <ul class="list-unstyled">
-              <li> <a href="#">Категория 1</a> </li>
-              <li> <a href="#">Категория 2</a> </li>
-              <li> <a href="#">Категория 3</a> </li>
-              <li> <a href="#">Категория 4</a> </li>
-              <li> <a href="#">Категория 5</a> </li>
-            </ul>
+          <div id="logo" class="logo">
+          <a href="/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-plants.png" title="Fruit Gift" alt="Fruit Gift" class="img-responsive"/></a>
           </div>
-        </nav>
-
-        <div id="logo" class="logo">
-        <a href="/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-plants.png" title="Fruit Gift" alt="Fruit Gift" class="img-responsive"/></a>
         </div>
-      </div>
-      <div class="pull-right">
-      <div class="top"><div class="box_html delivery">
-      Заказы принимаются с 10-00 до 22-00</div>
-      </div>
-      <span class="phone"><i class="fa fa-phone"></i><a href="tel:+79787925433">+7(978) 792-54-33</a></span>
+        <div class="pull-right">
+        <div class="top"><div class="box_html delivery">
+        Заказы принимаются с 10-00 до 22-00</div>
+        </div>
+        <span class="phone"><i class="fa fa-phone"></i><a href="tel:+79787925433">+7(978) 792-54-33</a></span>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+  <? if(is_home() || is_front_page()): ?>
+    <div class="header_modules">
+      <div id="parallax_43" class="parallax">
+        <div data-source-url="<?php echo get_stylesheet_directory_uri() ?>/images/1280px-SF_Japanese_Garden.JPG" class="parallax-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="circle">
+                  <h1>Растения<br>декоративные<br>для Вас</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        jQuery(document).ready(function () {
+            jQuery("#parallax_43>div").cherryFixedParallax({
+                invert: false
+            });
+        });
+      </script>
+    </div>
+  <? endif; ?>
+
+  <div class="stuck-menu">
+    <div class="container">
+      <div class="navigation">
+        <div class="megamenu">
+          <ul class="sf-menu">
+            <li>
+              <a href="#">Категория 1</a>
+            </li>
+            <li>
+              <a href="#">Категория 2</a>
+            </li>
+            <li>
+              <a href="#">Категория 3</a>
+            </li>
+            <li>
+              <a href="#">Категория 5</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="search" class="search">
+        <div class="search-block">
+          <input type="text" name="search" value="" placeholder="Search"/><button type="button" class="button-search"><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
