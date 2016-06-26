@@ -1,4 +1,3 @@
-<? include THEME_HELPERS . 'category.php' ?>
 <? get_header(); ?>
 
 <div class="container">
@@ -23,13 +22,11 @@
         <div class="row">
 
           <? while ( have_posts() ) : the_post(); ?>
-            <? $img_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) )?>
-            <? $img_url = !empty($img_url) ? $img_url : get_stylesheet_directory_uri(). "/images/default.jpg"; ?>
             <div class="product-layout col-lg-3 col-md-3 col-sm-3 col-xs-12">
               <div class="product-thumb transition options">
                 <div class="image">
                   <a class="lazy lazy-loaded" style="padding-bottom: 100%" href="<? the_permalink(); ?>">
-                  <img alt="<? the_title(); ?>" title="<? the_title(); ?>" class="img-responsive" data-src="<?= $img_url ?>" src="<?= $img_url ?>"> </a>
+                  <img alt="<? the_title(); ?>" title="<? the_title(); ?>" class="img-responsive" data-src="<?= get_thumbnail($post) ?>" src="<?= get_thumbnail($post) ?>"> </a>
                 </div>
                 <div class="caption">
                   <div class="name"> <a href="#"><? the_title(); ?></a> </div>
@@ -37,6 +34,7 @@
               </div>
             </div>
           <? endwhile; ?>
+          <? wp_reset_query(); ?>
 
         </div>
       </div>

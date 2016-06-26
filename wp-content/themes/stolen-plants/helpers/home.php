@@ -31,9 +31,12 @@ while (have_rows('hero_interesting_pages')) { the_row();
 
 $content['featured_pages'] = $interesting_pages;
 
-// Google data
-$content['google']['x'] = get_field("hero_google_x");
-$content['google']['y'] = get_field("hero_google_y");
-$content['google']['description'] = get_field("hero_google_balloon_text");
+$args = array(
+  'post_type'       => 'post',
+  'orderby'         => 'rand',
+  'posts_per_page'  => '8'
+);
+// Custom query.
+$content['random_posts'] = new WP_Query( $args );
 
 ?>

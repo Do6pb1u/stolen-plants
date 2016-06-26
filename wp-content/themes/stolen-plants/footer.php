@@ -72,17 +72,17 @@
     <section class="bottom">
       <div class="map">
         <div id="google-map" class="map_model" data-zoom="17"
-          data-y="<?= $content['google']['y']; ?>"
-          data-x="<?= $content['google']['x']; ?>"
+          data-y="<?= $general['hero_google_y']; ?>"
+          data-x="<?= $general['hero_google_x']; ?>"
           data-disable-ui="false"
           data-scrollwheel="false"
           data-draggable="true"
           style="height:400px; width: 100%">
         </div>
         <ul class="map_locations">
-          <li data-x="<?= $content['google']['x']; ?>"
-            data-y="<?= $content['google']['y']; ?>">
-            <p> <?= $content['google']['description']; ?></p>
+          <li data-x="<?= $general['hero_google_x']; ?>"
+            data-y="<?= $general['hero_google_y']; ?>">
+            <p> <?= $general['hero_google_balloon_text']; ?></p>
           </li>
         </ul>
       </div>
