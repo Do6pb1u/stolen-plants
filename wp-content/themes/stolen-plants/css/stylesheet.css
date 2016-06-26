@@ -1602,7 +1602,6 @@ section.bottom {
 
 /* ===================   Product Image   =================== */
 .product-thumb {
-  padding-bottom: 16px;
   margin-bottom: 5px;
   -moz-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;
@@ -1667,7 +1666,7 @@ section.bottom {
     padding: 0 20px;
     position: relative;
     line-height: 52px;
-    min-height: 116px; }
+    min-height: 50; }
     .product-thumb .caption .price {
       vertical-align: bottom; }
     .product-thumb .caption .btn-add {
@@ -1691,8 +1690,7 @@ section.bottom {
   margin-bottom: 0; }
 
 .name {
-  font: 300 18px/24px "Roboto", sans-serif;
-  margin-bottom: 15px; }
+  font: 300 18px/24px "Roboto", sans-serif; }
   .name a {
     color: #000; }
     .name a:visited {

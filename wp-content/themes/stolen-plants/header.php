@@ -56,21 +56,6 @@
       Заказы принимаются с 10-00 до 22-00</div>
       </div>
       <span class="phone"><i class="fa fa-phone"></i><a href="tel:+79787925433">+7(978) 792-54-33</a></span>
-      <div class="box-cart">
-      <div id="cart" class="cart toggle-wrap">
-      <button type="button" data-loading-text="Loading..." class="toggle">
-      <i class="fa fa-shopping-cart"></i>
-      <strong>Shopping Cart</strong>
-      <span id="cart-total" class="cart-total">0 item(s) - $0.00</span>
-      <span id="cart-total2" class="cart-total2">0</span>
-      </button>
-      <ul class="pull-right toggle_cont">
-      <li>
-      <p class="text-center">Your shopping cart is empty!</p>
-      </li>
-      </ul>
-      </div>
-      </div>
       </div>
     </div>
   </div>
