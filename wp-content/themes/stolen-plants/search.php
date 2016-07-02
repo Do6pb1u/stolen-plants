@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Search Page
+*/
+?>
+
 <? get_header(); ?>
 
 <div class="container">
@@ -8,19 +14,18 @@
       </a>
     </li>
     <li>
-      <span><?= single_cat_title(); ?></span>
-    </li>
+      <span>Поиск (<?= count($posts); ?> совпадений для "<?= get_search_query(); ?>")</span>
+    </li> 
   </ul>
 
   <div class="box featured">
     <div class="box-heading">
-      <h1><?= single_cat_title(); ?></h1>
+      <h1>Результат Поиска</h1>
     </div>
+    <div class="box-content">
+      <div class="row">
 
-    <? if(have_posts()): ?>
-      <div class="box-content">
-        <div class="row">
-
+        <? if(have_posts()): ?>
           <? while ( have_posts() ) : the_post(); ?>
             <div class="product-layout col-lg-3 col-md-3 col-sm-3 col-xs-12">
               <div class="product-thumb transition options">
@@ -35,10 +40,16 @@
             </div>
           <? endwhile; ?>
           <? wp_reset_query(); ?>
+        <? else: ?>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p>
+              <?= count($posts); ?> совпадений для "<?= get_search_query(); ?>"
+            </p>
+          </div>
+        <? endif; ?>
 
-        </div>
       </div>
-    <? endif; ?>
+    </div>
 
   </div>
 

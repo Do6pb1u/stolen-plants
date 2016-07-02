@@ -46,7 +46,7 @@
 
         <div class="col-sm-7 col-lg-5 product_page-right clearfix">
           <div class="general_info product-info">
-            <h2 class="product-title"><? the_title(); ?></h2>
+            <h1><? the_title(); ?></h1>
           </div>
           <p><? the_content(); ?></p>
         </div>

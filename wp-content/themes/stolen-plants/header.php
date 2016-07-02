@@ -95,7 +95,6 @@
       <div class="navigation">
         <div class="megamenu">
           <ul class="sf-menu">
-
             <? foreach($general['categories'] as $category): ?>
               <? $active = is_category($category->name) ? "class='active'" : ""; ?>
               <li>
@@ -108,9 +107,9 @@
         </div>
       </div>
       <div id="search" class="search">
-        <div class="search-block">
-          <input type="text" name="search" value="" placeholder="Search"/><button type="button" class="button-search"><i class="fa fa-search"></i></button>
-        </div>
+        <form method="get" class="search-block" action="/">
+          <input type="text" name="s" placeholder="Search"/><button type="submit" class="button-search"><i class="fa fa-search"></i></button>
+        </form>
       </div>
     </div>
   </div>
