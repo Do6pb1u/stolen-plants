@@ -19,7 +19,8 @@ $current_category = "";
 $general['categories'] = get_terms('category', array());
 
 function get_thumbnail($post) {
-  $img_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
+  // $img_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
+  $img_url = wp_get_attachment_image_src(get_post_thumbnail_id($post_array->ID), 'thumbnail')[0];
   return (!empty($img_url) ? $img_url : get_stylesheet_directory_uri(). "/images/default.jpg");
 }
 
