@@ -21,6 +21,8 @@ Template Name: Search Page
         </p>
       </div>
     </div>
+  </div>
+
 </div>
 
 <? get_footer(); ?>
