@@ -1,12 +1,26 @@
 <?php
-/**
- * Чистый Шаблон для разработки
- * Это шаблон 404 ошибки, отрабатывает, когда написали фигни в адресную строку
- * http://dontforget.pro
- * @package WordPress
- * @subpackage clean
- */
-get_header(); // Подключаем хедер ?> 
-<h1>Обычно тут какае то хрень про 404</h1>
-<?php get_sidebar();  // Подключаем сайдбар ?>
-<?php get_footer(); // Подключаем футер ?>
+/*
+Template Name: Search Page
+*/
+?>
+
+<? get_header(); ?>
+
+<div class="container">
+
+  <div class="box-heading">
+    <h1>— 404 —</h1>
+  </div>
+  <div class="box-content">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <p>Мы очень сожалеем, но страница, которую вы ищете, не может быть найдена в данный момент. 
+          Возможно она не существует.</p>
+        <p>
+          Вернуться на  <a href="/">главную страницу</a>.
+        </p>
+      </div>
+    </div>
+</div>
+
+<? get_footer(); ?>
