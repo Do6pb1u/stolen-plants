@@ -3409,20 +3409,18 @@ header .sf-menu {
                       Banners
 =========================================================*/
 .banners {
-  margin-bottom: 60px; }
+  margin-bottom: 10px; }
   .banners > div {
     margin-bottom: 20px; }
     .banners > div .banner-box {
       position: relative;
       overflow: hidden;
-      line-height: 0;
       overflow: hidden;
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
       border-radius: 10px; }
       .banners > div .banner-box > a {
         display: block;
-        color: #fff;
         overflow: hidden; }
         .banners > div .banner-box > a img {
           -moz-transition: 0.5s all ease;
@@ -3432,29 +3430,10 @@ header .sf-menu {
           -webkit-border-radius: 10px;
           -moz-border-radius: 10px;
           border-radius: 10px; }
-        .banners > div .banner-box > a .s-desc {
-          position: absolute;
-          left: 0;
-          top: 100%;
-          margin-top: -85px;
-          text-align: center;
-          width: 100%;
-          display: inline-block;
-          -moz-transition: 0.5s all ease;
-          -o-transition: 0.5s all ease;
-          -webkit-transition: 0.5s all ease;
-          transition: 0.5s all ease; }
-          .banners > div .banner-box > a .s-desc .circle {
-            display: inline-block;
-            width: 130px;
-            height: 130px;
-            line-height: 130px;
-            -webkit-border-radius: 65px;
-            -moz-border-radius: 65px;
-            border-radius: 65px;
-            color: #fff;
-            background: #709e00;
-            text-align: center; }
+        .banners > div .banner-box h5 {
+          text-align: center;}
+          .banners > div .banner-box > .s-desc {
+            text-align: justify; }
             .banners > div .banner-box > a .s-desc .circle.color-1 {
               background: #0d3407; }
             .banners > div .banner-box > a .s-desc .circle.color-2 {

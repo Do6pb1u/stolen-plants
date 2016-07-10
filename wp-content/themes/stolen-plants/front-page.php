@@ -5,27 +5,18 @@
   <div class="container">
     <div class="row">
       <div id="content" class="col-sm-12">
-        <div id="banner0" class="banners row">
 
-          <? foreach($content['featured_pages'] as $index => $page): ?>
-            <div class="col-sm-4 banner-<? echo ($index+1); ?>">
+        <? if(!empty($content['hero_main_description'])): ?>
+          <div class="banners row">
+            <div class="col-sm-12">
               <div class="banner-box">
-                <a class="clearfix" href="<?= $page['link_url'] ?>">
-                  <?= $page['page_preview_img'] ?>
-                  <div class="s-desc">
-                    <div class="circle color-<?= $index ?>">
-                      <div>
-                        <?= $page['link_text'] ?><br>
-                        <i class="fa fa-eye"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
+                <div class="s-desc">
+                  <?= $content['hero_main_description'] ?>
+                </div>
               </div>
             </div>
-          <? endforeach; ?>
-
-        </div>
+          </div>
+        <? endif; ?>
 
         <? if($content['random_posts']->have_posts()): ?>
           <div class="box featured">
