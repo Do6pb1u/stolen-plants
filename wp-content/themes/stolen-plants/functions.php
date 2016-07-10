@@ -62,6 +62,15 @@ if( function_exists('acf_add_options_page') ) {
 
 add_theme_support( 'post-thumbnails' );
 
+// search only in the post post_type
+function SearchFilter($query) {
+  if ($query->is_search) {
+    $query->set('post_type', 'post');
+  }
+  return $query;
+}
+add_filter('pre_get_posts','SearchFilter');
+
 include THEME_HELPERS . 'general.php';
 
 ?>

@@ -96,12 +96,18 @@
           <ul class="sf-menu">
             <? foreach($general['categories'] as $category): ?>
               <? $active = is_category($category->name) ? "class='active'" : ""; ?>
+              <? $active_contacts = ($_SERVER['REQUEST_URI']  == "/contacts/") ? "class='active'" : ""; ?>
               <li>
                 <a href="<?= get_term_link($category->term_id); ?>" <?= $active ?>>
                   <?= $category->name; ?>
                 </a>
               </li>
             <? endforeach; ?>
+            <li>
+              <a href="/contacts" <?= $active_contacts ?>>
+                Контакты
+              </a>
+            </li>
           </ul>
         </div>
       </div>
