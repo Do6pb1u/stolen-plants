@@ -803,7 +803,7 @@ header .nav {
           color: #000; }
         header .nav .toggle_cont ul li a:hover, header .nav .toggle_cont ul li a:focus, header .nav .toggle_cont ul li a:active {
           color: #000;
-          background: #f0fe2d; }
+          background: #709e00; }
     header .nav .toggle_cont .btn-group {
       width: 100%;
       position: relative;
@@ -2909,7 +2909,7 @@ header .sf-menu {
         width: 100%; }
   header .sf-menu > li > a.visited {
     color: #464646; }
-  header .sf-menu > li.active > a, header .sf-menu > li > a:hover, header .sf-menu > li > a:focus, header .sf-menu > li > a:active, header .sf-menu > li.sfHover > a, header .sf-menu > li > a.active,
+  header .sf-menu > li.active > a, header .sf-menu > li.current-menu-item > a, header .sf-menu > li > a:hover, header .sf-menu > li > a:focus, header .sf-menu > li > a:active, header .sf-menu > li.sfHover > a, header .sf-menu > li > a.active,
   header .sf-menu > li.sfHover > span {
     color: #fff;
     background: #0d3407; }

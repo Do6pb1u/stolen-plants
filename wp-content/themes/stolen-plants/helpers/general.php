@@ -14,10 +14,6 @@ $general['hero_google_x']   = get_field('hero_google_x', 'option');
 $general['hero_google_y']   = get_field('hero_google_y', 'option');
 $general['hero_google_balloon_text'] = get_field('hero_google_balloon_text', 'option');
 
-// get all categories
-$current_category = "";
-$general['categories'] = get_terms('category', array());
-
 function get_thumbnail($post) {
   // $img_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
   $img_url = wp_get_attachment_image_src(get_post_thumbnail_id($post_array->ID), 'thumbnail')[0];

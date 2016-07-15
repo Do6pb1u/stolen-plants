@@ -36,13 +36,13 @@
       <div class="col-xs-6 col-sm-3">
         <div class="footer_box">
           <h5>Категории</h5>
-          <ul class="list-unstyled">
-            <? foreach($general['categories'] as $category): ?>
-              <li>
-                <a href="<?= get_term_link($category->term_id); ?>"><?= $category->name ?></a>
-              </li>
-            <? endforeach; ?>
-          </ul>
+
+          <? wp_nav_menu( array(
+            'menu' => 'main_menu',
+            'menu_class' => 'list-unstyled',
+            'container' => ''
+          )); ?>
+
         </div>
       </div>
       <div class="col-xs-6 col-sm-4 col-sm-offset-2">

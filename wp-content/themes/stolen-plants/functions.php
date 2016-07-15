@@ -27,6 +27,14 @@ function stolen_plants_enque_scripts() {
 }
 add_action('wp_enqueue_scripts',  'stolen_plants_enque_scripts', 15 );
 
+// remove jQuery defaul script
+add_filter( 'wp_default_scripts', 'remove_jquery_migrate' );
+function remove_jquery_migrate( &$scripts) {
+    if(!is_admin()) {
+        $scripts->remove( 'jquery');
+    }
+}
+
 function stolen_plants_enque_styles() {
   wp_enqueue_style( 'bootstrap.min.css', get_template_directory_uri() . '/css/bootstrap.min.css', array() );
   wp_enqueue_style( 'owl.carousel.css', get_template_directory_uri() . '/css/owl.carousel.css', array() );

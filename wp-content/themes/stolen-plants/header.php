@@ -17,14 +17,14 @@
 <base />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+<script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDC0ClnTffuZbjA1hPQyPv0K7kybw_ToIk&v=3.exp&amp;sensor=true" type="text/javascript"></script>
+
 <?php
   wp_head();
   global $general;
 ?>
- 
 
-<script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery-2.1.1.min.js" type="text/javascript"></script>
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDC0ClnTffuZbjA1hPQyPv0K7kybw_ToIk&v=3.exp&amp;sensor=true" type="text/javascript"></script>
 </head>
 <body class="common-home">
 <div id="page">
@@ -36,17 +36,13 @@
           <nav id="top-links" class="nav toggle-wrap">
             <a class="toggle fa fa-bars" href='#'></a>
             <div class="toggle_cont">
-              <ul class="list-unstyled">
 
-                <? foreach($general['categories'] as $category): ?>
-                  <li>
-                    <a href="<?= get_term_link($category->term_id); ?>">
-                      <?= $category->name; ?>
-                    </a>
-                  </li>
-                <? endforeach; ?>
+              <? wp_nav_menu( array(
+                'menu' => 'main_menu',
+                'menu_class' => 'list-unstyled',
+                'container' => ''
+              )); ?>
 
-              </ul>
             </div>
           </nav>
 
@@ -93,22 +89,13 @@
     <div class="container">
       <div class="navigation">
         <div class="megamenu">
-          <ul class="sf-menu">
-            <? foreach($general['categories'] as $category): ?>
-              <? $active = is_category($category->name) ? "class='active'" : ""; ?>
-              <? $active_contacts = ($_SERVER['REQUEST_URI']  == "/contacts/") ? "class='active'" : ""; ?>
-              <li>
-                <a href="<?= get_term_link($category->term_id); ?>" <?= $active ?>>
-                  <?= $category->name; ?>
-                </a>
-              </li>
-            <? endforeach; ?>
-            <li>
-              <a href="/contacts" <?= $active_contacts ?>>
-                Контакты
-              </a>
-            </li>
-          </ul>
+
+          <? wp_nav_menu( array(
+            'menu' => 'main_menu',
+            'menu_class' => 'sf-menu',
+            'container' => ''
+          )); ?>
+
         </div>
       </div>
       <div id="search" class="search">

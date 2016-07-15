@@ -31,7 +31,7 @@
                     <div class="product-thumb transition options">
                       <div class="image">
                         <a class="lazy" style="padding-bottom: 100%" href="<? the_permalink(); ?>">
-                        <img alt="<? the_title(); ?>" title="<? the_title(); ?>" class="img-responsive" data-src="<?= get_thumbnail($post); ?>" src="<?= get_thumbnail($post) ?>"/> </a>
+                        <img alt="<? the_title(); ?>" title="<? the_title(); ?>" class="img-responsive" data-src="<?= get_thumbnail($post); ?>"/> </a>
                       </div>
                       <div class="caption">
                         <div class="name"> <a href="#"><? the_title(); ?></a> </div>
