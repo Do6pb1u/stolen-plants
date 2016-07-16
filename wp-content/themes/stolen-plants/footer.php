@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div id="parallax_42" class="parallax">
-        <div data-source-url="http://stolen-plants/wp-content/themes/stolen-plants/images/paralax2.jpg" class="parallax-2" style="width: 1280px; margin-left: -640px; left: 50%; background-image: url(&quot;http://stolen-plants/wp-content/themes/stolen-plants/images/paralax2.jpg&quot;); background-attachment: fixed; background-position: 50% 80%;">
+        <div data-source-url="/wp-content/themes/stolen-plants/images/paralax2.jpg" class="parallax-2" style="width: 1280px; margin-left: -640px; left: 50%; background-image: url(&quot;http://stolen-plants/wp-content/themes/stolen-plants/images/paralax2.jpg&quot;); background-attachment: fixed; background-position: 50% 80%;">
         </div>
       </div>
     </div>
@@ -71,7 +71,7 @@
   <? if(is_home() || is_front_page()): global $content; ?>
     <section class="bottom">
       <div class="map">
-        <div id="google-map" class="map_model" data-zoom="17"
+        <div id="google-map" class="map_model" data-zoom="14"
           data-y="<?= $general['hero_google_y']; ?>"
           data-x="<?= $general['hero_google_x']; ?>"
           data-disable-ui="false"
@@ -116,7 +116,8 @@
                     active: marker_active_path
                 },
                 type: type,
-                styles: styles
+                styles: styles,
+                zoom: 3
             });
         });
       </script>

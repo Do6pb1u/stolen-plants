@@ -34,7 +34,7 @@
                         <img alt="<? the_title(); ?>" title="<? the_title(); ?>" class="img-responsive" data-src="<?= get_thumbnail($post); ?>"/> </a>
                       </div>
                       <div class="caption">
-                        <div class="name"> <a href="#"><? the_title(); ?></a> </div>
+                        <div class="name"> <a href="<? the_permalink(); ?>"><? the_title(); ?></a> </div>
                       </div>
                     </div>
                   </div>
