@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div id="parallax_42" class="parallax">
-        <div data-source-url="/wp-content/themes/stolen-plants/images/paralax2.jpg" class="parallax-2" style="width: 1280px; margin-left: -640px; left: 50%; background-image: url(&quot;http://stolen-plants/wp-content/themes/stolen-plants/images/paralax2.jpg&quot;); background-attachment: fixed; background-position: 50% 80%;">
+        <div data-source-url="/wp-content/themes/stolen-plants/images/paralax2.jpg" class="parallax-2" style="width: 1280px; margin-left: -640px; left: 50%; background-image: url(&quot;/wp-content/themes/stolen-plants/images/paralax2.jpg&quot;); background-attachment: fixed; background-position: 50% 80%;">
         </div>
       </div>
     </div>
